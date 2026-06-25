@@ -33,3 +33,8 @@ Please note the following:
   Any update that adds new contributors or modifies attribution should also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
+
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
+
+**Open Arsenal Hub**  
+[https://github.com/openarsenalspecs/Open-Arsenal](https://github.com/openarsenalspecs/Open-Arsenal) 
