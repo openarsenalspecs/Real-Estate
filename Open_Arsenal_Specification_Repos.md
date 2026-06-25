@@ -38,4 +38,4 @@ Please note the following:
 For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
 
 **Open Arsenal Hub**  
-[https://github.com/openarsenalspecs/Open-Arsenal](https://github.com/openarsenalspecs/Open-Arsenal) 
+[https://github.com/openarsenalspecs](https://github.com/openarsenalspecs) 
