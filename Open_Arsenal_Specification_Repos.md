@@ -14,13 +14,14 @@ All Open Arsenal specifications are distributed under the GNU Affero General Pub
 [https://github.com/openarsenalspecs/Blockchain](https://github.com/openarsenalspecs/Blockchain)
 - **Real Estate**  
 [https://github.com/openarsenalspecs/Real-Estate](https://github.com/openarsenalspecs/Real-Estate)
-
+- **Voice**  
+[https://github.com/openarsenalspecs/Voice](https://github.com/openarsenalspecs/Voice)
 
 ---
 
 ## License & Notice Requirements
 
-Open Aresenal specifications are released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.   
+Open Arsenal specifications are released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.   
 By contributing to any Open Arsenal project, you agree that your contributions will also be released under this license.
 
 Please note the following:
