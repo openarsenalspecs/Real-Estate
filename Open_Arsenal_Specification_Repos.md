@@ -14,6 +14,8 @@ All Open Arsenal specifications are distributed under the GNU Affero General Pub
 [https://github.com/openarsenalspecs/Real-Estate](https://github.com/openarsenalspecs/Real-Estate)
 - **Voice**  
 [https://github.com/openarsenalspecs/Voice](https://github.com/openarsenalspecs/Voice)
+- **Simulations**  
+[https://github.com/openarsenalspecs/Simulations](https://github.com/openarsenalspecs/Simulations)
 
 ---
 
