@@ -10,4 +10,4 @@ Facebook: [https://www.facebook.com/roxanne.ardary](https://www.facebook.com/rox
 LinkedIn: [https://www.linkedin.com/in/roxanne-ardary-8621233/](https://www.linkedin.com/in/roxanne-ardary-8621233/)  
 
 **Open Arsenal Hub**  
-[https://github.com/openarsenalspecs/Open-Arsenal](https://github.com/openarsenalspecs/Open-Arsenal) 
+[https://github.com/openarsenalspecs](https://github.com/openarsenalspecs) 
