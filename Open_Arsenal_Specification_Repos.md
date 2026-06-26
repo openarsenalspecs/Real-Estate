@@ -29,7 +29,9 @@ All Open Arsenal specifications are distributed under the GNU Affero General Pub
 - **Digital Finance**  
 [https://github.com/openarsenalspecs/Digital-Finance](https://github.com/openarsenalspecs/Digital-Finance)
 - **Monetization**  
-[https://github.com/openarsenalspecs/Monetization](https://github.com/openarsenalspecs/Monetization)  
+[https://github.com/openarsenalspecs/Monetization](https://github.com/openarsenalspecs/Monetization)
+- **Hardware**  
+[https://github.com/openarsenalspecs/Hardware](https://github.com/openarsenalspecs/Hardware)  
 
 ---
 
