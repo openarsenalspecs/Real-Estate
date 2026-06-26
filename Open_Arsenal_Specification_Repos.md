@@ -23,7 +23,9 @@ All Open Arsenal specifications are distributed under the GNU Affero General Pub
 - **Energy**  
 [https://github.com/openarsenalspecs/Energy](https://github.com/openarsenalspecs/Energy)
 - **Video**  
-[https://github.com/openarsenalspecs/Video](https://github.com/openarsenalspecs/Video)  
+[https://github.com/openarsenalspecs/Video](https://github.com/openarsenalspecs/Video)
+- **Security**  
+[https://github.com/openarsenalspecs/Security](https://github.com/openarsenalspecs/Security)  
 
 ---
 
