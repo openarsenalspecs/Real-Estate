@@ -31,7 +31,9 @@ All Open Arsenal specifications are distributed under the GNU Affero General Pub
 - **Monetization**  
 [https://github.com/openarsenalspecs/Monetization](https://github.com/openarsenalspecs/Monetization)
 - **Hardware**  
-[https://github.com/openarsenalspecs/Hardware](https://github.com/openarsenalspecs/Hardware)  
+[https://github.com/openarsenalspecs/Hardware](https://github.com/openarsenalspecs/Hardware)
+- **Internet of Things**  
+[https://github.com/openarsenalspecs/IoT](https://github.com/openarsenalspecs/IoT)  
 
 ---
 
