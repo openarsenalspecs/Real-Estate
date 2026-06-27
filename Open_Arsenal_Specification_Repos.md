@@ -33,7 +33,9 @@ All Open Arsenal specifications are distributed under the GNU Affero General Pub
 - **Hardware**  
 [https://github.com/openarsenalspecs/Hardware](https://github.com/openarsenalspecs/Hardware)
 - **Internet of Things**  
-[https://github.com/openarsenalspecs/IoT](https://github.com/openarsenalspecs/IoT)  
+[https://github.com/openarsenalspecs/IoT](https://github.com/openarsenalspecs/IoT)
+- **Virtual Reality**  
+[https://github.com/openarsenalspecs/Virtual-Reality](https://github.com/openarsenalspecs/Virtual-Reality)  
 
 ---
 
