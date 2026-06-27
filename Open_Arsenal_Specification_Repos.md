@@ -37,7 +37,9 @@ All Open Arsenal specifications are distributed under the GNU Affero General Pub
 - **Virtual Reality**  
 [https://github.com/openarsenalspecs/Virtual-Reality](https://github.com/openarsenalspecs/Virtual-Reality)
 - **Civic Tech**  
-[https://github.com/openarsenalspecs/Civic-Tech](https://github.com/openarsenalspecs/Civic-Tech)  
+[https://github.com/openarsenalspecs/Civic-Tech](https://github.com/openarsenalspecs/Civic-Tech)
+- **Legal**  
+[https://github.com/openarsenalspecs/Legal](https://github.com/openarsenalspecs/Legal)  
 
 ---
 
