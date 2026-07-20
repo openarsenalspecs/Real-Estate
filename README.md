@@ -49,7 +49,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/signalparcel/](https://roxanneardary.com/signalparcel/)  
   An open-source system that maps land ownership, operators, and licensing relationships using verified public records. It supports transparent land and property analysis.  
 
-- **GeoListing**  
+- [**GeoListing Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/b05629337892a211054d49b5ab58559e58bb17f1/GeoListing.md)   
   [https://roxanneardary.com/geolisting/](https://roxanneardary.com/geolisting/)  
   Open Semantic Infrastructure for Real Estate, an AI-powered platform for listing generation, SEO optimization, compliance automation, market intelligence, and semantic property discovery. It streamlines real estate marketing.  
 
