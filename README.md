@@ -117,6 +117,14 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/nexa/](https://roxanneardary.com/nexa/)   
   Nexa: Continuity Engine is a generational wealth operating system that structures and governs long-term financial systems using programmable trust logic, lifecycle rules, and multi-trust network architecture. It enables simulation and management of inheritance, assets, and governance across decades to support sustained wealth continuity across generations.
 
+---
+
+# Specification Branding License (SBL)
+
+Buy the Basket: [https://roxanneardary.com/real-estate-specifications/](https://roxanneardary.com/real-estate-specifications/)
+
+---  
+
 ## License & Notice Requirements
 
 Open Arsenal Real Estate Specifications are released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.   
