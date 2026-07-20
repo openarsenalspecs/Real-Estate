@@ -21,7 +21,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
 
 ## Real Estate Specs
 
-- **HouseLens**  
+- [**HouseLens Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/0819f6d9463bf0558b0d14b75bd5c7821865b169/HouseLens.md)    
   [https://roxanneardary.com/houselens/](https://roxanneardary.com/houselens/)  
   An open-source AI-powered platform that helps buyers and renters analyze property disclosures, verify compliance, and uncover risks before making a real estate decision. It focuses on transparency and informed decision-making in property transactions.  
 
