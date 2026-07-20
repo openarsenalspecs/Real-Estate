@@ -37,7 +37,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/valuegrid/](https://roxanneardary.com/valuegrid/)  
   An open-source property intelligence platform that provides transparent valuation models, environmental risk analysis, and a publicly verifiable National Property Ledger. It enhances data-driven real estate decisions.  
 
-- **CommonsHome**  
+- [**CommonsHome Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/1b22b718181c601204c339c59a1545eaeb874f1a/CommonsHome.md)    
   [https://roxanneardary.com/commonshome/](https://roxanneardary.com/commonshome/)  
   An open-source AI-powered platform for home staging, spatial intelligence, and real estate marketing optimization. It transforms property photos into market-ready listings with virtual staging and insights.  
 
