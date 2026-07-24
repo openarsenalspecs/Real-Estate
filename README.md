@@ -53,7 +53,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/geolisting/](https://roxanneardary.com/geolisting/)  
   Open Semantic Infrastructure for Real Estate, an AI-powered platform for listing generation, SEO optimization, compliance automation, market intelligence, and semantic property discovery. It streamlines real estate marketing.  
 
-- **TownIntel**  
+- [**TownIntel Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/e869245b9bf691382bc506fa1bc593044c0d81f9/TownIntel.md)    
   [https://roxanneardary.com/townintel/](https://roxanneardary.com/townintel/)  
   Tracks rental registrations, landlord certifications, and census discrepancies at the town level with analytics and predictive insights. It aids in rental market oversight and compliance.  
 
