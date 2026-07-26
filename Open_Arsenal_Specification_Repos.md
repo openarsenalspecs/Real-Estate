@@ -38,35 +38,33 @@ All Open Arsenal specifications are distributed under the GNU Affero General Pub
 - **Health**  
 [https://github.com/openarsenalspecs/Health](https://github.com/openarsenalspecs/Health)
 - **Human in the Loop**  
-[https://github.com/openarsenalspecs/Human-in-the-Loop](https://github.com/openarsenalspecs/Human-in-the-Loop)  
-- **Legal**  
-[https://github.com/openarsenalspecs/Legal](https://github.com/openarsenalspecs/Legal)  
+[https://github.com/openarsenalspecs/Human-in-the-Loop](https://github.com/openarsenalspecs/Human-in-the-Loop)   
 - **Intellectual Property**  
 [https://github.com/openarsenalspecs/Intellectual-Property](https://github.com/openarsenalspecs/Intellectual-Property)
 - **Internet of Things**  
-[https://github.com/openarsenalspecs/IoT](https://github.com/openarsenalspecs/IoT)  
+[https://github.com/openarsenalspecs/IoT](https://github.com/openarsenalspecs/IoT)
+- **Legal**  
+[https://github.com/openarsenalspecs/Legal](https://github.com/openarsenalspecs/Legal)  
+- **Monetization**  
+[https://github.com/openarsenalspecs/Monetization](https://github.com/openarsenalspecs/Monetization)  
 - **Real Estate**  
 [https://github.com/openarsenalspecs/Real-Estate](https://github.com/openarsenalspecs/Real-Estate)
-- **Simulations**  
-[https://github.com/openarsenalspecs/Simulations](https://github.com/openarsenalspecs/Simulations)
 - **SaaS**  
 [https://github.com/openarsenalspecs/SaaS](https://github.com/openarsenalspecs/SaaS)  
+- **Security**  
+[https://github.com/openarsenalspecs/Security](https://github.com/openarsenalspecs/Security)  
+- **Simulations**  
+[https://github.com/openarsenalspecs/Simulations](https://github.com/openarsenalspecs/Simulations)
 - **Transparency**  
 [https://github.com/openarsenalspecs/Transparency](https://github.com/openarsenalspecs/Transparency)  
 - **Video**  
-[https://github.com/openarsenalspecs/Video](https://github.com/openarsenalspecs/Video)  
+[https://github.com/openarsenalspecs/Video](https://github.com/openarsenalspecs/Video)
+- **Virtual Reality**  
+[https://github.com/openarsenalspecs/Virtual-Reality](https://github.com/openarsenalspecs/Virtual-Reality)  
 - **Voice**  
-[https://github.com/openarsenalspecs/Voice](https://github.com/openarsenalspecs/Voice)
+[https://github.com/openarsenalspecs/Voice](https://github.com/openarsenalspecs/Voice)  
 - **Wiki**  
 [https://github.com/openarsenalspecs/Wiki](https://github.com/openarsenalspecs/Wiki)
-- **Security**  
-[https://github.com/openarsenalspecs/Security](https://github.com/openarsenalspecs/Security)
-- **Digital Finance**  
-[https://github.com/openarsenalspecs/Digital-Finance](https://github.com/openarsenalspecs/Digital-Finance)  
-- **Monetization**  
-[https://github.com/openarsenalspecs/Monetization](https://github.com/openarsenalspecs/Monetization)
-- **Virtual Reality**  
-[https://github.com/openarsenalspecs/Virtual-Reality](https://github.com/openarsenalspecs/Virtual-Reality)
 
 ---
 
