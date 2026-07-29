@@ -113,7 +113,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/urbanlayer/](https://roxanneardary.com/urbanlayer/)  
   An open-source municipal infrastructure platform for zoning, permitting, GIS analysis, and AI-powered regulatory automation. It supports property development and urban planning.
 
-- **ValueGrid**  
+- [**ValueGrid Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/589edac64217723db76dd9041f2455d0449249e2/ValueGrid.md)    
   [https://roxanneardary.com/valuegrid/](https://roxanneardary.com/valuegrid/)  
   An open-source property intelligence platform that provides transparent valuation models, environmental risk analysis, and a publicly verifiable National Property Ledger. It enhances data-driven real estate decisions.
 
