@@ -89,7 +89,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/propintel/](https://roxanneardary.com/propintel/)  
   An open-source, AI-driven property intelligence platform that tracks ownership, notices of default, liens, foreclosures, and title history across the United States. It delivers comprehensive property history data.
 
-- **RecordMesh**  
+- [**RecordMesh Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/870a2497c14c6784c9ecdec5eee6d2d45335923b/RecordMesh.md)    
   [https://roxanneardary.com/recordmesh/](https://roxanneardary.com/recordmesh/)  
   A modular AI platform that converts jurisdiction-aware legal intent into real property instruments and county-ready recording packets for real estate filing systems. It automates property documentation.
 
