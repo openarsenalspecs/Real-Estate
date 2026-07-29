@@ -105,7 +105,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/townintel/](https://roxanneardary.com/townintel/)  
   Tracks rental registrations, landlord certifications, and census discrepancies at the town level with analytics and predictive insights. It aids in rental market oversight and compliance.
 
-- **TrustLens**  
+- [**TrustLens Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/23c2912879e0373fccebbff9e12594ee9e3a01be/TrustLens.md)    
   [https://roxanneardary.com/trustlens/](https://roxanneardary.com/trustlens/)  
   An open-source AI-powered platform that helps sellers prepare fully transparent, disclosure-ready property listings before going to market. It supports better compliance and buyer confidence.
 
