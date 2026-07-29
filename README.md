@@ -95,7 +95,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/recordmesh/](https://roxanneardary.com/recordmesh/)  
   A modular AI platform that converts jurisdiction-aware legal intent into real property instruments and county-ready recording packets for real estate filing systems. It automates property documentation.
 
-- **SignalParcel**  
+- [**SignalParcel Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/e6d159cedcef0772cb82316486d7c4eefdcbea88/SignalParcel.md)    
   [https://roxanneardary.com/signalparcel/](https://roxanneardary.com/signalparcel/)  
   An open-source system that maps land ownership, operators, and licensing relationships using verified public records. It supports transparent land and property analysis.
 
