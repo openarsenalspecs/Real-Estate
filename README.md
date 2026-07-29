@@ -77,7 +77,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/openproperty/](https://roxanneardary.com/openproperty/)  
   An open-source real estate transparency platform that uses AI to verify disclosures, permits, and compliance for buyers, renters, and sellers. It aims to build trust through verifiable property information.
 
-- **ParcelPlanner**  
+- [**ParcelPlanner Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/c34fffd239d26dc868477e1ba7b86037eb9903fa/ParcelPlanner.md)    
   [https://roxanneardary.com/parcelplanner/](https://roxanneardary.com/parcelplanner/)  
   An open-source property intelligence platform that helps users determine what can legally be built, modified, or developed on a parcel of land using official zoning laws. It supports informed development decisions.
 
