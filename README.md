@@ -61,7 +61,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/magistrate-title-services/](https://roxanneardary.com/magistrate-title-services/)  
   An open-source blockchain and AI-powered platform that modernizes real estate title, escrow, and verification systems. It provides secure, transparent title services.
 
-- **MindLedger for Real Estate**  
+- [**MindLedger for Real Estate Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/6e81053dae51023686e3903bd0e5845af885ac0d/MindLedger%20for%20Real%20Estate.md)    
   [https://roxanneardary.com/mindledger-for-real-estate/](https://roxanneardary.com/mindledger-for-real-estate/)   
   MindLedger for Real Estate is a modular, open-source real estate operating system that unifies CRM, listings, marketing, analytics, compliance, and accessibility into a single intelligent platform. It uses a dual-AI architecture to support both agent operations and public-facing services, enabling automation, customization, and continuous system evolution.
 
