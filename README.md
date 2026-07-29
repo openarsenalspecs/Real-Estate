@@ -45,7 +45,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/propintel/](https://roxanneardary.com/propintel/)  
   An open-source, AI-driven property intelligence platform that tracks ownership, notices of default, liens, foreclosures, and title history across the United States. It delivers comprehensive property history data.  
 
-- **SignalParcel**  
+- [**SignalParcel Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/362d55a0b4a31b70f8b9e893233d7626de59ae97/SignalParcel.md)    
   [https://roxanneardary.com/signalparcel/](https://roxanneardary.com/signalparcel/)  
   An open-source system that maps land ownership, operators, and licensing relationships using verified public records. It supports transparent land and property analysis.  
 
