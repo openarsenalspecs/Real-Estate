@@ -21,7 +21,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
 
 ## Real Estate Specs
 
-- **CasaBot**  
+- [**CasaBot Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/16d6b0f86a701e9bb6bbfe9cfff7d78b82622dd1/CasaBot.md)    
   [https://roxanneardary.com/casabot/](https://roxanneardary.com/casabot/)  
   An open-source AI-powered real estate companion that continuously monitors listings, analyzes market trends, and delivers personalized alerts. It assists users in finding ideal properties.
 
