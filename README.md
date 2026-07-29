@@ -45,7 +45,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/houselens/](https://roxanneardary.com/houselens/)  
   An open-source AI-powered platform that helps buyers and renters analyze property disclosures, verify compliance, and uncover risks before making a real estate decision. It focuses on transparency and informed decision-making in property transactions.
 
-- **InspectHome**  
+- [**InspectHome Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/156dc7eb3d2301698aab05ee8ff26c94670a1637/InspectHome.md)    
   [https://roxanneardary.com/inspecthome/](https://roxanneardary.com/inspecthome/)  
   An open-source, transparency-first real estate platform that requires full property disclosures, verified documentation, and encrypted user data. It promotes confident home buying.
 
