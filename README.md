@@ -69,7 +69,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/neighborhood-graph/](https://roxanneardary.com/neighborhood-graph/)  
   An open-source civic intelligence platform that transforms housing, land, infrastructure, and community data into an interactive knowledge graph. It explores neighborhood evolution over time.
 
-- **Nexa**  
+- [**Nexa Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/8da3b902c49d3c955ed7d8861dc0d8c6776fb41b/Nexa.md)    
   [https://roxanneardary.com/nexa/](https://roxanneardary.com/nexa/)   
   Nexa: Continuity Engine is a generational wealth operating system that structures and governs long-term financial systems using programmable trust logic, lifecycle rules, and multi-trust network architecture. It enables simulation and management of inheritance, assets, and governance across decades to support sustained wealth continuity across generations.
 
