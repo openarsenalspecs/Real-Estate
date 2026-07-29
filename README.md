@@ -33,7 +33,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/geolisting/](https://roxanneardary.com/geolisting/)  
   Open Semantic Infrastructure for Real Estate, an AI-powered platform for listing generation, SEO optimization, compliance automation, market intelligence, and semantic property discovery. It streamlines real estate marketing.
 
-- **HabitaSense**  
+- [**HabitaSense Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/eaebbc1a0afe05957b278b17633a22b0ecd3e76d/HabitaSense.md)    
   [https://roxanneardary.com/habitasense/](https://roxanneardary.com/habitasense/)  
   An open-source AI-powered platform that delivers transparent, data-driven analysis of rental and home ownership markets. It supports market transparency.
 
