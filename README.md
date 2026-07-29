@@ -97,7 +97,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/signalparcel/](https://roxanneardary.com/signalparcel/)  
   An open-source system that maps land ownership, operators, and licensing relationships using verified public records. It supports transparent land and property analysis.
 
-- **SignalTruth**  
+- [**SignalTruth Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/20e439d78776ec0b98462f8825c64370db4bff3a/SignalTruth.md)    
   [https://roxanneardary.com/signaltruth/](https://roxanneardary.com/signaltruth/)  
   An open-source commercial real estate intelligence system that transforms public records into a structured, confidence-scored property graph with ownership, market, legal, and completeness analysis. It delivers detailed CRE insights.
 
