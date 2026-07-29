@@ -65,7 +65,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/mindledger-for-real-estate/](https://roxanneardary.com/mindledger-for-real-estate/)   
   MindLedger for Real Estate is a modular, open-source real estate operating system that unifies CRM, listings, marketing, analytics, compliance, and accessibility into a single intelligent platform. It uses a dual-AI architecture to support both agent operations and public-facing services, enabling automation, customization, and continuous system evolution.
 
-- **NeighborhoodGraph**  
+- [**NeighborhoodGraph Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/8a4604db215d98582620bfd9b24cf51356a0aba7/NeighborhoodGraph.md)    
   [https://roxanneardary.com/neighborhood-graph/](https://roxanneardary.com/neighborhood-graph/)  
   An open-source civic intelligence platform that transforms housing, land, infrastructure, and community data into an interactive knowledge graph. It explores neighborhood evolution over time.
 
