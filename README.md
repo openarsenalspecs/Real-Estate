@@ -49,7 +49,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/inspecthome/](https://roxanneardary.com/inspecthome/)  
   An open-source, transparency-first real estate platform that requires full property disclosures, verified documentation, and encrypted user data. It promotes confident home buying.
 
-- **LeaseTrack**  
+- [**LeaseTrack Module Specifications**](https://github.com/openarsenalspecs/Real-Estate/blob/7af486b1b5e1478c9c851a87ec21965d53fe132a/LeaseTrack.md)    
   [https://roxanneardary.com/leasetrack/](https://roxanneardary.com/leasetrack/)  
   An open source AI platform that analyzes U.S. rental markets to identify affordability gaps, ownership patterns, and landlord compliance issues. It focuses on rental market equity and compliance.
 
