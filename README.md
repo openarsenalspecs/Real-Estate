@@ -57,7 +57,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/listingstream/](https://roxanneardary.com/listingstream/)   
   ListingStream is a modular AI-powered platform that enables intelligent product placement within photographs while preserving the original image through strict pixel-level integrity controls. It combines scene understanding, real-time compliance rules, human-in-the-loop approval, and explainable AI to turn visual media into structured, monetizable marketing assets across multiple industries.
 
-- **Magistrate Title Services**  
+- [**Magistrate Title Services Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/d95e624bde807b9a24be8154d34160a7407f8d92/Magistrate%20Title%20Services.md)    
   [https://roxanneardary.com/magistrate-title-services/](https://roxanneardary.com/magistrate-title-services/)  
   An open-source blockchain and AI-powered platform that modernizes real estate title, escrow, and verification systems. It provides secure, transparent title services.
 
