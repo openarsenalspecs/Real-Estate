@@ -85,7 +85,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/plotledger/](https://roxanneardary.com/plotledger/)  
   An open-source AI platform that unifies large land parcel data, zoning laws, permits, and ownership records into a single national intelligence system. It provides comprehensive parcel insights.
 
-- **PropIntel**  
+- [**PropIntel Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/b2c2c736f88462a91bf45c00912c17243f4a2f09/PropIntel.md)    
   [https://roxanneardary.com/propintel/](https://roxanneardary.com/propintel/)  
   An open-source, AI-driven property intelligence platform that tracks ownership, notices of default, liens, foreclosures, and title history across the United States. It delivers comprehensive property history data.
 
