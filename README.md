@@ -37,7 +37,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/habitasense/](https://roxanneardary.com/habitasense/)  
   An open-source AI-powered platform that delivers transparent, data-driven analysis of rental and home ownership markets. It supports market transparency.
 
-- **HappyHouse**  
+- [**HappyHouse Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/29f7ad8a80b50cd651e2b05204ef02e0fdfcca0f/HappyHouse.md)    
   [https://roxanneardary.com/happyhouse/](https://roxanneardary.com/happyhouse/)  
   An AI-powered home maintenance and property intelligence platform for tracking systems, managing repairs, and predicting maintenance needs. It helps property owners maintain their assets.
 
