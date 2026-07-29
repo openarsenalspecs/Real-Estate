@@ -21,101 +21,103 @@ A second core design theme is the integration of **cryptographic trust, encrypti
 
 ## Real Estate Specs
 
-- [**HouseLens Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/0819f6d9463bf0558b0d14b75bd5c7821865b169/HouseLens.md)    
-  [https://roxanneardary.com/houselens/](https://roxanneardary.com/houselens/)  
-  An open-source AI-powered platform that helps buyers and renters analyze property disclosures, verify compliance, and uncover risks before making a real estate decision. It focuses on transparency and informed decision-making in property transactions.  
-
-- **OpenProperty**  
-  [https://roxanneardary.com/openproperty/](https://roxanneardary.com/openproperty/)  
-  An open-source real estate transparency platform that uses AI to verify disclosures, permits, and compliance for buyers, renters, and sellers. It aims to build trust through verifiable property information.  
-
-- **TrustLens**  
-  [https://roxanneardary.com/trustlens/](https://roxanneardary.com/trustlens/)  
-  An open-source AI-powered platform that helps sellers prepare fully transparent, disclosure-ready property listings before going to market. It supports better compliance and buyer confidence.  
-
-- **ValueGrid**  
-  [https://roxanneardary.com/valuegrid/](https://roxanneardary.com/valuegrid/)  
-  An open-source property intelligence platform that provides transparent valuation models, environmental risk analysis, and a publicly verifiable National Property Ledger. It enhances data-driven real estate decisions.  
-
-- [**CommonsHome Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/1b22b718181c601204c339c59a1545eaeb874f1a/CommonsHome.md)    
-  [https://roxanneardary.com/commonshome/](https://roxanneardary.com/commonshome/)  
-  An open-source AI-powered platform for home staging, spatial intelligence, and real estate marketing optimization. It transforms property photos into market-ready listings with virtual staging and insights.  
-
-- **PropIntel**  
-  [https://roxanneardary.com/propintel/](https://roxanneardary.com/propintel/)  
-  An open-source, AI-driven property intelligence platform that tracks ownership, notices of default, liens, foreclosures, and title history across the United States. It delivers comprehensive property history data.  
-
-- [**SignalParcel Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/362d55a0b4a31b70f8b9e893233d7626de59ae97/SignalParcel.md)    
-  [https://roxanneardary.com/signalparcel/](https://roxanneardary.com/signalparcel/)  
-  An open-source system that maps land ownership, operators, and licensing relationships using verified public records. It supports transparent land and property analysis.  
-
-- [**GeoListing Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/b05629337892a211054d49b5ab58559e58bb17f1/GeoListing.md)   
-  [https://roxanneardary.com/geolisting/](https://roxanneardary.com/geolisting/)  
-  Open Semantic Infrastructure for Real Estate, an AI-powered platform for listing generation, SEO optimization, compliance automation, market intelligence, and semantic property discovery. It streamlines real estate marketing.  
-
-- [**TownIntel Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/e869245b9bf691382bc506fa1bc593044c0d81f9/TownIntel.md)    
-  [https://roxanneardary.com/townintel/](https://roxanneardary.com/townintel/)  
-  Tracks rental registrations, landlord certifications, and census discrepancies at the town level with analytics and predictive insights. It aids in rental market oversight and compliance.  
-
-- **ParcelPlanner**  
-  [https://roxanneardary.com/parcelplanner/](https://roxanneardary.com/parcelplanner/)  
-  An open-source property intelligence platform that helps users determine what can legally be built, modified, or developed on a parcel of land using official zoning laws. It supports informed development decisions.  
-
-- **PlotLedger**  
-  [https://roxanneardary.com/plotledger/](https://roxanneardary.com/plotledger/)  
-  An open-source AI platform that unifies large land parcel data, zoning laws, permits, and ownership records into a single national intelligence system. It provides comprehensive parcel insights.  
-
-- **RecordMesh**  
-  [https://roxanneardary.com/recordmesh/](https://roxanneardary.com/recordmesh/)  
-  A modular AI platform that converts jurisdiction-aware legal intent into real property instruments and county-ready recording packets for real estate filing systems. It automates property documentation.  
-
-- **SignalTruth**  
-  [https://roxanneardary.com/signaltruth/](https://roxanneardary.com/signaltruth/)  
-  An open-source commercial real estate intelligence system that transforms public records into a structured, confidence-scored property graph with ownership, market, legal, and completeness analysis. It delivers detailed CRE insights.  
-
-- **UrbanLayer**  
-  [https://roxanneardary.com/urbanlayer/](https://roxanneardary.com/urbanlayer/)  
-  An open-source municipal infrastructure platform for zoning, permitting, GIS analysis, and AI-powered regulatory automation. It supports property development and urban planning.  
+#real estate
 
 - **CasaBot**  
   [https://roxanneardary.com/casabot/](https://roxanneardary.com/casabot/)  
-  An open-source AI-powered real estate companion that continuously monitors listings, analyzes market trends, and delivers personalized alerts. It assists users in finding ideal properties.  
+  An open-source AI-powered real estate companion that continuously monitors listings, analyzes market trends, and delivers personalized alerts. It assists users in finding ideal properties.
 
-- **HappyHouse**  
-  [https://roxanneardary.com/happyhouse/](https://roxanneardary.com/happyhouse/)  
-  An AI-powered home maintenance and property intelligence platform for tracking systems, managing repairs, and predicting maintenance needs. It helps property owners maintain their assets.  
+- [**CommonsHome Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/1b22b718181c601204c339c59a1545eaeb874f1a/CommonsHome.md)    
+  [https://roxanneardary.com/commonshome/](https://roxanneardary.com/commonshome/)  
+  An open-source AI-powered platform for home staging, spatial intelligence, and real estate marketing optimization. It transforms property photos into market-ready listings with virtual staging and insights.
 
-- **InspectHome**  
-  [https://roxanneardary.com/inspecthome/](https://roxanneardary.com/inspecthome/)  
-  An open-source, transparency-first real estate platform that requires full property disclosures, verified documentation, and encrypted user data. It promotes confident home buying.  
-
-- **NeighborhoodGraph**  
-  [https://roxanneardary.com/neighborhood-graph/](https://roxanneardary.com/neighborhood-graph/)  
-  An open-source civic intelligence platform that transforms housing, land, infrastructure, and community data into an interactive knowledge graph. It explores neighborhood evolution over time.  
-
-- **Magistrate Title Services**  
-  [https://roxanneardary.com/magistrate-title-services/](https://roxanneardary.com/magistrate-title-services/)  
-  An open-source blockchain and AI-powered platform that modernizes real estate title, escrow, and verification systems. It provides secure, transparent title services.  
+- [**GeoListing Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/b05629337892a211054d49b5ab58559e58bb17f1/GeoListing.md)   
+  [https://roxanneardary.com/geolisting/](https://roxanneardary.com/geolisting/)  
+  Open Semantic Infrastructure for Real Estate, an AI-powered platform for listing generation, SEO optimization, compliance automation, market intelligence, and semantic property discovery. It streamlines real estate marketing.
 
 - **HabitaSense**  
   [https://roxanneardary.com/habitasense/](https://roxanneardary.com/habitasense/)  
-  An open-source AI-powered platform that delivers transparent, data-driven analysis of rental and home ownership markets. It supports market transparency.  
+  An open-source AI-powered platform that delivers transparent, data-driven analysis of rental and home ownership markets. It supports market transparency.
+
+- **HappyHouse**  
+  [https://roxanneardary.com/happyhouse/](https://roxanneardary.com/happyhouse/)  
+  An AI-powered home maintenance and property intelligence platform for tracking systems, managing repairs, and predicting maintenance needs. It helps property owners maintain their assets.
+
+- [**HouseLens Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/0819f6d9463bf0558b0d14b75bd5c7821865b169/HouseLens.md)    
+  [https://roxanneardary.com/houselens/](https://roxanneardary.com/houselens/)  
+  An open-source AI-powered platform that helps buyers and renters analyze property disclosures, verify compliance, and uncover risks before making a real estate decision. It focuses on transparency and informed decision-making in property transactions.
+
+- **InspectHome**  
+  [https://roxanneardary.com/inspecthome/](https://roxanneardary.com/inspecthome/)  
+  An open-source, transparency-first real estate platform that requires full property disclosures, verified documentation, and encrypted user data. It promotes confident home buying.
 
 - **LeaseTrack**  
   [https://roxanneardary.com/leasetrack/](https://roxanneardary.com/leasetrack/)  
   An open source AI platform that analyzes U.S. rental markets to identify affordability gaps, ownership patterns, and landlord compliance issues. It focuses on rental market equity and compliance.
 
-- **MindLedger for Real Estate**  
-  [https://roxanneardary.com/mindledger-for-real-estate/](https://roxanneardary.com/mindledger-for-real-estate/)   
-  MindLedger for Real Estate is a modular, open-source real estate operating system that unifies CRM, listings, marketing, analytics, compliance, and accessibility into a single intelligent platform. It uses a dual-AI architecture to support both agent operations and public-facing services, enabling automation, customization, and continuous system evolution.
-
 - **ListingStream**  
   [https://roxanneardary.com/listingstream/](https://roxanneardary.com/listingstream/)   
   ListingStream is a modular AI-powered platform that enables intelligent product placement within photographs while preserving the original image through strict pixel-level integrity controls. It combines scene understanding, real-time compliance rules, human-in-the-loop approval, and explainable AI to turn visual media into structured, monetizable marketing assets across multiple industries.
 
+- **Magistrate Title Services**  
+  [https://roxanneardary.com/magistrate-title-services/](https://roxanneardary.com/magistrate-title-services/)  
+  An open-source blockchain and AI-powered platform that modernizes real estate title, escrow, and verification systems. It provides secure, transparent title services.
+
+- **MindLedger for Real Estate**  
+  [https://roxanneardary.com/mindledger-for-real-estate/](https://roxanneardary.com/mindledger-for-real-estate/)   
+  MindLedger for Real Estate is a modular, open-source real estate operating system that unifies CRM, listings, marketing, analytics, compliance, and accessibility into a single intelligent platform. It uses a dual-AI architecture to support both agent operations and public-facing services, enabling automation, customization, and continuous system evolution.
+
+- **NeighborhoodGraph**  
+  [https://roxanneardary.com/neighborhood-graph/](https://roxanneardary.com/neighborhood-graph/)  
+  An open-source civic intelligence platform that transforms housing, land, infrastructure, and community data into an interactive knowledge graph. It explores neighborhood evolution over time.
+
 - **Nexa**  
   [https://roxanneardary.com/nexa/](https://roxanneardary.com/nexa/)   
   Nexa: Continuity Engine is a generational wealth operating system that structures and governs long-term financial systems using programmable trust logic, lifecycle rules, and multi-trust network architecture. It enables simulation and management of inheritance, assets, and governance across decades to support sustained wealth continuity across generations.
+
+- **OpenProperty**  
+  [https://roxanneardary.com/openproperty/](https://roxanneardary.com/openproperty/)  
+  An open-source real estate transparency platform that uses AI to verify disclosures, permits, and compliance for buyers, renters, and sellers. It aims to build trust through verifiable property information.
+
+- **ParcelPlanner**  
+  [https://roxanneardary.com/parcelplanner/](https://roxanneardary.com/parcelplanner/)  
+  An open-source property intelligence platform that helps users determine what can legally be built, modified, or developed on a parcel of land using official zoning laws. It supports informed development decisions.
+
+- **PlotLedger**  
+  [https://roxanneardary.com/plotledger/](https://roxanneardary.com/plotledger/)  
+  An open-source AI platform that unifies large land parcel data, zoning laws, permits, and ownership records into a single national intelligence system. It provides comprehensive parcel insights.
+
+- **PropIntel**  
+  [https://roxanneardary.com/propintel/](https://roxanneardary.com/propintel/)  
+  An open-source, AI-driven property intelligence platform that tracks ownership, notices of default, liens, foreclosures, and title history across the United States. It delivers comprehensive property history data.
+
+- **RecordMesh**  
+  [https://roxanneardary.com/recordmesh/](https://roxanneardary.com/recordmesh/)  
+  A modular AI platform that converts jurisdiction-aware legal intent into real property instruments and county-ready recording packets for real estate filing systems. It automates property documentation.
+
+- **SignalParcel**  
+  [https://roxanneardary.com/signalparcel/](https://roxanneardary.com/signalparcel/)  
+  An open-source system that maps land ownership, operators, and licensing relationships using verified public records. It supports transparent land and property analysis.
+
+- **SignalTruth**  
+  [https://roxanneardary.com/signaltruth/](https://roxanneardary.com/signaltruth/)  
+  An open-source commercial real estate intelligence system that transforms public records into a structured, confidence-scored property graph with ownership, market, legal, and completeness analysis. It delivers detailed CRE insights.
+
+- [**TownIntel Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/e869245b9bf691382bc506fa1bc593044c0d81f9/TownIntel.md)    
+  [https://roxanneardary.com/townintel/](https://roxanneardary.com/townintel/)  
+  Tracks rental registrations, landlord certifications, and census discrepancies at the town level with analytics and predictive insights. It aids in rental market oversight and compliance.
+
+- **TrustLens**  
+  [https://roxanneardary.com/trustlens/](https://roxanneardary.com/trustlens/)  
+  An open-source AI-powered platform that helps sellers prepare fully transparent, disclosure-ready property listings before going to market. It supports better compliance and buyer confidence.
+
+- **UrbanLayer**  
+  [https://roxanneardary.com/urbanlayer/](https://roxanneardary.com/urbanlayer/)  
+  An open-source municipal infrastructure platform for zoning, permitting, GIS analysis, and AI-powered regulatory automation. It supports property development and urban planning.
+
+- **ValueGrid**  
+  [https://roxanneardary.com/valuegrid/](https://roxanneardary.com/valuegrid/)  
+  An open-source property intelligence platform that provides transparent valuation models, environmental risk analysis, and a publicly verifiable National Property Ledger. It enhances data-driven real estate decisions.
 
 ---
 
