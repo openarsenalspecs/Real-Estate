@@ -53,7 +53,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/leasetrack/](https://roxanneardary.com/leasetrack/)  
   An open source AI platform that analyzes U.S. rental markets to identify affordability gaps, ownership patterns, and landlord compliance issues. It focuses on rental market equity and compliance.
 
-- **ListingStream**  
+- [**ListingStream Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/a3a578505d67165253786fa7944908f2ea5ab00d/ListingStream.md)    
   [https://roxanneardary.com/listingstream/](https://roxanneardary.com/listingstream/)   
   ListingStream is a modular AI-powered platform that enables intelligent product placement within photographs while preserving the original image through strict pixel-level integrity controls. It combines scene understanding, real-time compliance rules, human-in-the-loop approval, and explainable AI to turn visual media into structured, monetizable marketing assets across multiple industries.
 
