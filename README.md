@@ -109,7 +109,7 @@ A second core design theme is the integration of **cryptographic trust, encrypti
   [https://roxanneardary.com/trustlens/](https://roxanneardary.com/trustlens/)  
   An open-source AI-powered platform that helps sellers prepare fully transparent, disclosure-ready property listings before going to market. It supports better compliance and buyer confidence.
 
-- **UrbanLayer**  
+- [**UrbanLayer Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/9e5a245025cb4151af4a35c0f7b40361353713bd/UrbanLayer.md)    
   [https://roxanneardary.com/urbanlayer/](https://roxanneardary.com/urbanlayer/)  
   An open-source municipal infrastructure platform for zoning, permitting, GIS analysis, and AI-powered regulatory automation. It supports property development and urban planning.
 
