@@ -2,211 +2,374 @@
 
 **Trust, Verified. Ownership, Secured.**
 
-Blockchain-powered title platform with enterprise-grade security, AI verification, and open infrastructure released under AGPL-3.0+.
+Open-source real estate title infrastructure powered by blockchain, AI verification, and secure transaction workflows. Licensed under **AGPL-3.0+**.
 
 ---
 
 ## Overview
 
-Magistrate Title Services is an open-source platform designed to modernize real estate transactions through a hybrid blockchain architecture, advanced AI verification, and cryptographic security.
+Magistrate Title Services is a modular, open-source platform designed to modernize real estate title, escrow, and closing processes through secure digital infrastructure.
 
-The platform combines permissioned and public blockchain systems to ensure legal compliance, transparency, and immutability while maintaining privacy and performance. Every transaction is verifiable, auditable, and protected.
+The platform provides a foundation for title companies, real estate professionals, lenders, and financial institutions to build transparent and verifiable transaction workflows. Magistrate combines blockchain-based records, artificial intelligence, encrypted document management, and compliance-focused automation to reduce fraud, improve efficiency, and increase trust throughout the property transfer lifecycle.
 
----
-
-## Core Architecture
-
-Magistrate is built on four distinct layers:
-
-### Legal Truth Layer
-- Permissioned blockchain (Hyperledger Fabric)
-- PostgreSQL for structured legal records
-- Compliance enforcement and audit logging
-
-### Public Proof Layer
-- Ethereum / Polygon blockchain
-- Tokenized deeds (NFT-based ownership)
-- Public verification and timestamp anchoring
-
-### Application Layer
-- React frontend
-- API-driven backend (Node.js or Python)
-- Real-time workflows and transaction management
-
-### Intelligence Layer
-- AI-powered verification and fraud detection
-- Document processing and anomaly detection
+Magistrate is designed with a modular architecture, allowing organizations to deploy only the capabilities they need while extending the platform through optional plugins and integrations.
 
 ---
 
-## Features
+# Architecture
 
-### Multi-Layer Identity Verification
-- Government ID scanning with OCR validation
-- Facial recognition with liveness detection
-- Multi-factor authentication (MFA)
-- Optional background checks
-- Credential validation for licensed professionals
+Magistrate uses a modular architecture consisting of:
 
-### Smart Contract Escrow System
-- Hybrid escrow (on-chain + off-chain legal enforcement)
-- Funds and documents held until conditions are met
-- Automatic release upon verified completion
-- Real-time escrow tracking
+## Core Platform
 
-### AI-Powered Title Search
-- Automated chain-of-ownership verification
-- Lien, mortgage, and encumbrance checks
-- Property tax and HOA validation
-- Blockchain-backed proof of title history
+The core platform provides the essential infrastructure required for secure real estate transactions:
 
-### Secure Document Management
-- End-to-end encrypted storage
-- Version control and audit trails
-- E-signature support
-- State-specific document generation
+- Identity and access management
+- Transaction workflow engine
+- Secure data layer
+- Audit logging
+- API services
+- Event-driven architecture
+- Compliance framework
+- Plugin management system
 
-### Payment & Wire Verification
-- ACH and wire integration-ready architecture
-- AI-assisted fraud detection for payments
-- Event-driven verification system
-- Secure fund release logic tied to escrow conditions
+## Core Modules
 
-### Advanced Security Model
-- AES-256 encryption (data at rest)
-- TLS 1.3 (data in transit)
+Core modules provide the primary title, escrow, and transaction capabilities.
+
+## Optional Plugin Modules
+
+Optional plugins extend Magistrate with additional integrations, automation, analytics, and specialized workflows.
+
+---
+
+# Core Modules
+
+## Identity Verification Module
+
+Provides secure verification of all transaction participants.
+
+Features:
+
+- Government ID scanning
+- OCR document validation
+- Identity verification workflows
+- Facial recognition integration
+- Liveness detection support
+- Multi-factor authentication
+- Professional credential verification
+- Role-based identity permissions
+
+---
+
+## Title Search Module
+
+Automates and improves property ownership verification.
+
+Features:
+
+- Chain-of-title analysis
+- Ownership history verification
+- Lien discovery workflows
+- Mortgage verification
+- Property tax validation
+- HOA restriction tracking
+- Title issue detection
+- Blockchain-backed verification records
+
+---
+
+## Smart Escrow Module
+
+Provides programmable escrow management using blockchain technology.
+
+Features:
+
+- Smart contract escrow workflows
+- Conditional fund release
+- Document holding requirements
+- Transaction milestone tracking
+- Automated verification triggers
+- Escrow audit history
+- On-chain and off-chain synchronization
+
+---
+
+## Document Management Module
+
+Provides secure lifecycle management for transaction documents.
+
+Features:
+
+- Encrypted document storage
+- Document version control
+- Digital signatures
+- Document templates
+- Automated document generation
+- Access permissions
+- Complete audit trails
+
+---
+
+## Payment Verification Module
+
+Provides secure payment monitoring and transaction validation.
+
+Features:
+
+- Wire transfer verification
+- ACH integration support
+- Payment status tracking
+- Escrow condition validation
+- Fraud detection workflows
+- Automated notifications
+
+---
+
+## Blockchain Registry Module
+
+Provides immutable transaction and ownership records.
+
+Features:
+
+- Tokenized deed support
+- Ownership record anchoring
+- Smart contract integration
+- Multi-chain support
+- Ethereum compatibility
+- Polygon compatibility
+- Hyperledger Fabric support
+
+---
+
+## AI Transaction Assistant Module
+
+Provides intelligent automation throughout the closing process.
+
+Features:
+
+- AI workflow assistance
+- Document understanding
+- Plain-language explanations
+- Compliance assistance
+- Fraud pattern detection
+- Transaction anomaly detection
+- Automated recommendations
+
+---
+
+## Security Module
+
+Provides enterprise-grade security controls.
+
+Features:
+
+- AES-256 encryption
+- TLS 1.3 communication security
 - Field-level encryption
-- Zero-knowledge proof systems for identity validation
-- Continuous intrusion detection
-
-### Tokenized Deed Management
-- Property ownership represented as blockchain tokens
-- Smart contracts encode transfer conditions
-- Immutable ownership history
-- Multi-chain support (Ethereum, Polygon)
-
-### AI Workflow Assistant
-- Context-aware transaction guidance
-- Plain-language legal explanations
-- Fraud detection alerts
-- Automated compliance checks
+- Role-Based Access Control (RBAC)
+- Security event monitoring
+- Audit logging
+- Access tracking
 
 ---
 
-## Tech Stack
+# Optional Plugin Modules
 
-### Frontend
+Optional plugins extend Magistrate with additional capabilities.
+
+---
+
+## MLS Integration Plugin
+
+Connects Magistrate with real estate listing systems.
+
+Features:
+
+- Property data synchronization
+- Listing verification
+- Automated property information updates
+- Transaction record linking
+
+---
+
+## County Recorder Integration Plugin
+
+Connects with government recording systems.
+
+Features:
+
+- County API integrations
+- Electronic recording support
+- Recording status tracking
+- Deed submission workflows
+
+---
+
+## Insurance Integration Plugin
+
+Supports title insurance workflows.
+
+Features:
+
+- Insurance carrier connections
+- Policy generation workflows
+- Premium calculation support
+- Coverage verification
+
+---
+
+## Virtual Closing Plugin
+
+Enables remote closing experiences.
+
+Features:
+
+- Video closing sessions
+- Remote document signing
+- Identity verification during closing
+- Digital notary integration support
+
+---
+
+## Decentralized Identity Plugin
+
+Adds advanced identity capabilities.
+
+Features:
+
+- DID support
+- Verifiable credentials
+- Privacy-preserving identity proofs
+- User-controlled identity records
+
+---
+
+## Analytics Plugin
+
+Provides transaction intelligence and reporting.
+
+Features:
+
+- Closing analytics
+- Market trend analysis
+- Performance dashboards
+- Risk scoring
+- Operational insights
+
+---
+
+## CRM Integration Plugin
+
+Connects Magistrate with business management systems.
+
+Features:
+
+- Customer relationship synchronization
+- Contact management
+- Workflow automation
+- Communication tracking
+
+---
+
+# Technology Stack
+
+## Frontend
+
 - React 18+
 - Tailwind CSS
+- Modern component-based UI architecture
 
-### Backend
-- Node.js (Express) or Python (FastAPI)
-- REST or GraphQL API layer
-- Background job processing
+## Backend
 
-### Blockchain
-- Ethereum / Polygon (public proof layer)
-- Hyperledger Fabric (permissioned legal layer)
+- Node.js or Python FastAPI
+- REST / GraphQL APIs
+- Event-driven services
+- Background processing queues
+
+## Database & Storage
+
+- PostgreSQL
+- Encrypted object storage
+- Optional decentralized storage integrations
+
+## Blockchain
+
+- Ethereum
+- Polygon
+- Hyperledger Fabric
 - ethers.js
 
-### AI / Machine Learning
-- Python-based services
+## Artificial Intelligence
+
+- Python AI services
 - TensorFlow or PyTorch
-- OCR and document parsing
-- Fraud and anomaly detection models
+- OCR processing
+- Document intelligence
+- Fraud detection models
+- Anomaly detection systems
 
-### Storage
-- PostgreSQL (structured data)
-- Encrypted object storage (documents)
-- Optional IPFS for hash anchoring
+## Security
 
-### Security
 - AES-256 encryption
 - TLS 1.3
-- Zero-knowledge proofs (selective use)
-- Role-Based Access Control (RBAC)
-- Full audit logging system
+- Zero-knowledge proof support
+- Role-based permissions
+- Security monitoring
+- Audit logging
 
 ---
 
-## Compliance & Governance
+# Deployment Model
 
-Magistrate is designed to support:
+Magistrate supports multiple deployment options:
 
-- Real Estate Settlement Procedures Act (RESPA)
-- State-specific title regulations
-- GDPR and CCPA privacy frameworks
-- SOC 2 Type II security principles
-- ESIGN Act compliance
-
-Technical enforcement includes:
-- Audit logs for all actions
-- Data retention and deletion policies
-- Consent tracking
-- Access control enforcement
+- Self-hosted title company deployments
+- Private enterprise installations
+- Cloud deployments
+- Federated service deployments
+- Custom plugin-based implementations
 
 ---
 
-## Usage
+# Roadmap
 
-### Buyers / Sellers
-- Complete identity verification
-- Upload documents
-- Review and sign agreements
-- Track transaction progress
-- Receive tokenized deed
+## 2026
 
-### Title Agents
-- Verify identities
-- Conduct AI-powered title searches
-- Generate documents
-- Manage escrow conditions
-
-### Lenders
-- Access verified borrower data
-- Review title results
-- Track funding and disbursement
-- Confirm lien releases
-
----
-
-## Roadmap
-
-### Q1 2026
-- Mobile apps (iOS and Android)
-- Biometric authentication
+### Identity & Security
+- Advanced biometric authentication
 - Hardware security key support
-- Multi-language support
+- Expanded identity verification plugins
 
-### Q2 2026
-- Video-based virtual closings
+### Real Estate Integrations
 - MLS integrations
-- County recorder APIs
-- E-notary integration
+- County recorder integrations
+- Electronic notary integrations
 
-### Q3 2026
-- Insurance integrations
-- Analytics dashboard
-- Market prediction tools
-
-### Q4 2026
-- NFT marketplace for property rights
-- Decentralized identity (DID)
+### Blockchain Expansion
 - Layer 2 scaling solutions
+- Expanded tokenized property workflows
+- Decentralized identity support
+
+### Business Tools
+- Analytics dashboards
 - CRM integrations
+- Insurance integrations
 
 ---
 
-## Contributing
+# Contributing
 
-We welcome contributions:
+We welcome contributions from developers, security researchers, blockchain engineers, AI developers, and real estate technology professionals.
 
-- Fork the repository
-- Create a feature branch
-- Commit your changes
-- Submit a pull request
+Contributors can help improve:
 
-All contributions must comply with the AGPL-3.0+ license.
+- Core modules
+- Optional plugins
+- Integrations
+- Documentation
+- Security improvements
+- Testing infrastructure
 
 ---
 
@@ -245,5 +408,3 @@ Please note the following:
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
 For full legal details, please refer to the AGPL-3.0+ license and the project's notice.md file.
-
----
