@@ -87,7 +87,7 @@ HelixPlan is an open-source spatial intelligence system that reconstructs accura
   [https://roxanneardary.com/parcelplanner/](https://roxanneardary.com/parcelplanner/)  
   An open-source property intelligence platform that helps users determine what can legally be built, modified, or developed on a parcel of land using official zoning laws. It supports informed development decisions.
 
-- [**PlotLedger Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/83109fce58a7c6880a3dedc3a04bd536cda90a98/PlotLedger.md)    
+- [**PlotLedger Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/e213d7471732ce3671fb9c0d47c55e3c3693f6a7/PlotLedger.md)  
   [https://roxanneardary.com/plotledger/](https://roxanneardary.com/plotledger/)  
   An open-source AI platform that unifies large land parcel data, zoning laws, permits, and ownership records into a single national intelligence system. It provides comprehensive parcel insights.
 
