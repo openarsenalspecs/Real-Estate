@@ -1,4 +1,8 @@
 # HouseLens Specification
+**From Unknowns to Insights.**
+- HTML Mirror:  [https://roxanneardary.com/houselens-specification/](https://roxanneardary.com/houselens-specification/)
+
+---
 
 ## Overview
 
@@ -7,6 +11,8 @@ HouseLens is an open-source AI-powered property intelligence platform designed t
 HouseLens analyzes property disclosures, documents, public records, legal requirements, permits, zoning information, inspection requirements, and other available property information. The platform uses the property's location as a primary context so that recommendations and evaluations prioritize the laws, regulations, disclosure requirements, and permitting practices applicable to that property.
 
 HouseLens is designed to help users identify unknowns before they become costly surprises. The system does not replace attorneys, licensed inspectors, engineers, contractors, government officials, landlords, sellers, or other qualified professionals. Instead, it identifies questions that should be asked, records that should be obtained, and professional evaluations that may be appropriate.
+
+---
 
 ## Design Principles
 
@@ -613,21 +619,6 @@ Where practical, each recommendation shall identify:
 - Who should be contacted
 - Whether professional verification is recommended
 
-## Accuracy and Verification
-
-HouseLens shall prioritize accuracy over confident speculation.
-
-The system shall:
-
-- Avoid inventing records
-- Avoid claiming that an absent public record proves an action did not occur
-- Identify uncertain conclusions
-- Preserve source information
-- Encourage verification of important findings
-- Distinguish laws from general guidance
-- Distinguish public records from user-provided claims
-- Recommend qualified professionals when appropriate
-
 ## Ethical Requirements
 
 HouseLens shall be designed to support ethical real estate transactions.
@@ -642,35 +633,6 @@ The system shall:
 - Avoid making decisions based on protected characteristics
 - Protect sensitive user information
 - Clearly disclose limitations of AI-generated analysis
-
-## Interoperability
-
-HouseLens shall use open standards and documented interfaces wherever practical.
-
-The platform should support:
-
-- REST APIs
-- Structured property data
-- Structured document metadata
-- Standard geographic formats
-- Portable reports
-- Exportable evidence records
-- Pluggable AI providers
-- Pluggable data sources
-
-## Open Source Architecture
-
-HouseLens shall remain modular so developers can independently improve:
-
-- AI capabilities
-- Regulatory modules
-- Document analysis
-- Public data integrations
-- Inspection logic
-- User interfaces
-- Security
-- Reporting
-- Localization
 
 Core functionality shall not depend on a single commercial provider.
 
@@ -711,6 +673,23 @@ HouseLens shall be considered successful when it can help a user:
 
 ---
 
+# Part of the OpenProperty Ecosystem
+[https://roxanneardary.com/openproperty/](https://roxanneardary.com/openproperty/)  
+
+HouseLens is one component of the broader **OpenProperty** transparency network.  
+
+OpenProperty applications include:
+
+* **HouseLens** — buyer and renter protection  
+[**TrustLens**](https://codeberg.org/RoxanneA/TrustLens) — seller transparency and preparation.  
+[https://roxanneardary.com/trustlens/](https://roxanneardary.com/trustlens/)
+
+Together they create a complete real estate transparency platform.
+
+---
+
+---
+
 ## Specification Branding License (SBL)
 ### Standard
 - Fully AGPL-3.0+ compliant system
@@ -738,25 +717,10 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- HouseLens specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- HouseLens specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.  
   Any update that adds new contributors or modifies attribution should also update `notice.md`.
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
 For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
-
----
-
-# Part of the OpenProperty Ecosystem
-[https://roxanneardary.com/openproperty/](https://roxanneardary.com/openproperty/)  
-
-HouseLens is one component of the broader **OpenProperty** transparency network.  
-
-OpenProperty applications include:
-
-* **HouseLens** — buyer and renter protection  
-[**TrustLens**](https://codeberg.org/RoxanneA/TrustLens) — seller transparency and preparation.  
-[https://roxanneardary.com/trustlens/](https://roxanneardary.com/trustlens/)
-
-Together they create a complete real estate transparency platform.
