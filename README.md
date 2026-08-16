@@ -47,7 +47,7 @@ All specifications are released under the GNU Affero General Public License v3.0
 [https://roxanneardary.com/helixplan/](https://roxanneardary.com/helixplan/)  
 HelixPlan is an open-source spatial intelligence system that reconstructs accurate architectural floorplans from walkthrough video and minimal dimensional inputs using computer vision, SLAM, and AI-driven spatial reasoning. It generates structured 2D and 3D representations of real-world interiors, including walls, rooms, doors, windows, closets, and stairs, while continuously improving through an open, community-driven development model.
 
-- [**HouseLens Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/0819f6d9463bf0558b0d14b75bd5c7821865b169/HouseLens.md)    
+- [**HouseLens Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/8f1ff638434043150c586ac4305fca565febd2f5/HouseLens.md)  
   [https://roxanneardary.com/houselens/](https://roxanneardary.com/houselens/)  
   An open-source AI-powered platform that helps buyers and renters analyze property disclosures, verify compliance, and uncover risks before making a real estate decision. It focuses on transparency and informed decision-making in property transactions.
 
