@@ -1,300 +1,684 @@
 # UrbanLayer
-
 **City regulations, instantly understood.**
-
-UrbanLayer is an open-source municipal infrastructure platform that converts zoning laws, permitting rules, and planning regulations into structured digital systems. By transforming complex municipal codes into machine-readable logic, UrbanLayer enables faster permitting, clearer compliance guidance, and more transparent governance for cities and towns.
-
-UrbanLayer is designed to be **municipality-centric**, allowing each town or city to define its own zoning rules, permit workflows, and spatial data layers while using a shared open-source core platform.
+- HTML Mirror:  [https://roxanneardary.com/urbanlayer-specification/](https://roxanneardary.com/urbanlayer-specification/)
 
 ---
 
-# Vision
+## Specification
 
-Cities operate on rules—zoning codes, building regulations, permit processes, and environmental constraints. Unfortunately, most of these systems are buried in PDFs, paper forms, and fragmented GIS tools.
+UrbanLayer is an open-source municipal infrastructure specification for converting zoning laws, permitting requirements, planning regulations, and municipal spatial data into structured, machine-readable systems.
 
-UrbanLayer creates a digital layer where municipal rules become:
+UrbanLayer is designed as a municipality-centric platform. Each municipality can maintain its own regulatory rules, permit types, workflows, geographic data, and administrative requirements while using a shared core architecture.
 
-- machine-readable  
-- searchable  
-- testable  
-- automatable  
+The specification is modular and extensible. Core modules define the foundational capabilities required by the platform. Optional plugin modules provide additional capabilities that municipalities may enable according to their needs.
 
-Instead of navigating hundreds of pages of regulations, citizens and planners can receive **instant compliance answers**.
+## Design Principles
 
----
+UrbanLayer shall follow these principles:
 
-# Key Goals
-
-UrbanLayer aims to:
-
-- Modernize municipal permitting systems
-- Make zoning laws understandable to residents
-- Reduce permit processing times
-- Improve regulatory transparency
-- Provide open infrastructure for city governance
-
----
-
-# Core Features
-
-## Municipality-Centric Architecture
-
-UrbanLayer treats **municipalities as the primary regulatory authority**.
-
-Each municipality maintains its own module containing:
-
-- zoning rules
-- permit types
-- workflows
-- GIS layers
-
-Example structure:
-
-
-/municipalities
-/us
-/fl
-/avon-park
-/sebring
-/nj
-/princeton
-/montclair
-
-
-This allows every city or town to operate independently while benefiting from a shared platform.
+- Municipality-centric architecture
+- Open-source infrastructure
+- Modular design
+- Local regulatory control
+- Human oversight
+- Explainable automation
+- Regulatory source traceability
+- Geographic accuracy
+- Version-controlled rules
+- Interoperable data
+- Vendor neutrality
+- Local-first deployment capability
+- Transparent compliance analysis
+- Configurable municipal workflows
 
 ---
 
-## Universal Zoning Rule Language (UZRL)
+## Core Modules
 
-UrbanLayer introduces a standard machine-readable format for zoning regulations.
+### Municipality Module
 
-Example rule:
+The Municipality Module defines the primary jurisdictional configuration for each deployment.
 
+Capabilities include:
 
-zone "R1" {
+- Municipality identification
+- State and county relationships
+- Municipal boundaries
+- Department configuration
+- Administrative contacts
+- Municipal policies
+- Local regulatory authorities
+- Municipal-specific configuration
+- Local rule overrides
+- Municipal data ownership
+- Municipal configuration versioning
 
-minimum_lot_size: 10000 sqft
+The municipality shall remain the primary configuration boundary for local zoning and permitting rules.
 
-setbacks {
-front: 30 ft
-side: 10 ft
-rear: 25 ft
-}
+### Regulatory Rules Module
 
-max_height: 35 ft
-max_lot_coverage: 25%
+The Regulatory Rules Module manages municipal regulations as structured digital rules.
 
-}
+Capabilities include:
 
+- Zoning regulations
+- Land-use regulations
+- Building requirements
+- Setback requirements
+- Height restrictions
+- Lot coverage requirements
+- Density requirements
+- Parking requirements
+- Permitted uses
+- Conditional uses
+- Accessory structure requirements
+- Variance requirements
+- Environmental restrictions
+- Historic preservation requirements
+- Effective dates
+- Regulatory versions
+- Rule dependencies
+- Rule provenance
+- Source references
 
-The compliance engine uses these rules to evaluate permit submissions automatically.
+### Universal Zoning Rule Language Module
 
----
+The Universal Zoning Rule Language, or UZRL, provides a standardized machine-readable representation for zoning regulations.
 
-## Permit Compliance Engine
+UZRL shall support:
 
-UrbanLayer analyzes permit submissions and compares them against zoning rules.
+- Zoning districts
+- Dimensional requirements
+- Conditional requirements
+- Permitted uses
+- Prohibited uses
+- Exceptions
+- Conditional uses
+- Variances
+- Special conditions
+- Geographic conditions
+- Rule dependencies
+- Effective dates
+- Rule versioning
+- Regulatory references
 
-Example evaluation:
+UZRL shall support both machine processing and human-readable representations.
 
+### Regulatory Source Module
 
-if building_height > max_height
-violation("Building exceeds height limit")
+The Regulatory Source Module maintains the relationship between structured rules and their authoritative source material.
 
+Capabilities include:
 
-Results include:
+- Source document registration
+- Ordinance identification
+- Section references
+- Page references
+- Regulatory citations
+- Source URLs
+- Publication dates
+- Effective dates
+- Amendment references
+- Source version tracking
+- Rule-to-source relationships
 
-- Pass
-- Conditional Approval
-- Violation Report
+Every machine-readable regulatory rule should be traceable to its originating source whenever authoritative source information is available.
 
----
+### Permit Module
 
-## GIS Spatial Analysis
+The Permit Module provides configurable municipal permitting capabilities.
 
-Permitting requires spatial context. UrbanLayer integrates geographic data layers to evaluate land-use constraints.
+Capabilities include:
 
-Key layers include:
+- Permit types
+- Permit applications
+- Application requirements
+- Required documents
+- Application status
+- Permit fees
+- Review requirements
+- Approval requirements
+- Correction requests
+- Resubmissions
+- Permit history
+- Permit records
+- Municipal-specific permit definitions
+
+Municipalities shall be able to create, modify, and deactivate permit types according to local requirements.
+
+### Permit Compliance Module
+
+The Permit Compliance Module evaluates applications against applicable municipal rules.
+
+Capabilities include:
+
+- Zoning compliance checks
+- Dimensional checks
+- Setback verification
+- Building height verification
+- Lot coverage verification
+- Density verification
+- Parking verification
+- Use verification
+- Geographic restrictions
+- Environmental restrictions
+- Historic restrictions
+- Conditional requirements
+- Violation detection
+- Compliance reports
+- Conditional approval results
+- Human review escalation
+
+Compliance results shall provide understandable explanations of the rules applied.
+
+### GIS Module
+
+The GIS Module provides geographic and spatial analysis capabilities.
+
+Capabilities include:
 
 - Parcel boundaries
 - Zoning districts
+- Municipal boundaries
 - Flood zones
-- Environmental protections
+- Wetlands
+- Environmental protection areas
+- Conservation areas
 - Infrastructure networks
+- Utility systems
+- Roads
 - Historic districts
+- Preservation areas
+- Elevation
+- Terrain
+- Slope
+- Spatial intersections
+- Buffer analysis
+- Geographic proximity analysis
+
+The GIS Module shall support common interoperable geographic data formats and services.
+
+### Municipal Data Layer Module
+
+The Municipal Data Layer Module manages spatial datasets used by municipal compliance processes.
+
+Core supported layers include:
+
+- Parcel boundaries
+- Zoning districts
+- Flood hazard zones
+- Wetlands and environmental protections
+- Infrastructure networks
+- Historic preservation districts
 - Elevation and terrain
 
-These datasets often originate from agencies such as the Federal Emergency Management Agency and the United States Geological Survey.
+Municipalities may add additional layers according to local regulatory requirements.
 
----
+### Rule Engine Module
 
-## Citizen Property Simulation
+The Rule Engine Module executes machine-readable regulatory rules.
 
-Residents can test project ideas before applying for permits.
+Capabilities include:
 
-Example workflow:
+- Rule evaluation
+- Conditional logic
+- Rule dependencies
+- Geographic conditions
+- Dimensional calculations
+- Threshold calculations
+- Exceptions
+- Overrides
+- Effective-date evaluation
+- Rule version selection
+- Compliance determination
+- Explanation generation
 
-1. Select property parcel
-2. Draw proposed structure
-3. Run compliance test
+The Rule Engine shall remain deterministic where official regulatory rules can be represented deterministically.
 
-Output example:
+### Workflow Module
 
+The Workflow Module manages municipal review processes.
 
-Result: Conditional Approval
+Capabilities include:
 
-Issues Detected:
-• Shed exceeds maximum allowed size
-• Setback requirement not met
+- Application routing
+- Automated checks
+- Department review
+- Planner review
+- Zoning review
+- Building review
+- Environmental review
+- Board review
+- Variance review
+- Conditional approval
+- Escalation
+- Reassignment
+- Notifications
+- Approval
+- Denial
+- Correction requests
+- Workflow history
 
+Municipalities shall be able to configure workflows without modifying the core platform.
 
-This dramatically reduces rejected permit applications.
+### Document Module
 
----
+The Document Module manages regulatory and permit documents.
 
-## AI-Assisted Regulation Parsing
+Capabilities include:
 
-UrbanLayer includes AI tools that convert traditional zoning ordinances into structured rules.
+- Document uploads
+- Document classification
+- Document indexing
+- Document versioning
+- Document metadata
+- Source tracking
+- Permit attachments
+- Regulatory documents
+- Application records
+- Document search
 
-Example workflow:
+### AI Regulation Parser Module
 
-1. Upload municipal zoning code PDF
-2. AI identifies rule sections
-3. Rules converted into UZRL format
-4. Municipal staff review and approve
+The AI Regulation Parser Module assists municipalities in converting existing regulatory documents into structured rules.
 
-This significantly speeds up onboarding for new municipalities.
+Capabilities include:
 
----
+- PDF analysis
+- Regulatory text extraction
+- Section identification
+- Rule identification
+- Cross-reference identification
+- UZRL generation
+- Source citation mapping
+- Ambiguity detection
+- Conflicting rule detection
+- Rule confidence assessment
 
-# Plug-and-Play Municipal Deployment
+AI-generated rules shall require appropriate human validation before becoming authoritative municipal rules.
 
-UrbanLayer includes a **Deployment Wizard** designed to launch a municipal permit platform in under one day.
+### AI Document Analysis Module
 
-Setup steps:
+The AI Document Analysis Module assists with the interpretation of submitted permit materials.
 
-1. Municipality profile setup
-2. GIS data import
-3. Zoning code conversion
-4. Permit template configuration
-5. Workflow configuration
-6. Public portal activation
+Capabilities include:
 
-Once complete, the city immediately has a working permit platform.
+- Site plan analysis
+- Architectural document analysis
+- Document classification
+- Measurement extraction
+- Structure identification
+- Property feature identification
+- Rule matching
+- Potential violation detection
+- Review recommendations
 
----
+AI analysis shall remain advisory unless a municipality explicitly authorizes an automated determination for a particular process.
 
-# Repository Structure
+### Property Simulation Module
 
+The Property Simulation Module allows users to evaluate proposed development scenarios before submitting formal applications.
 
-urbanlayer
-/core-engine
-/uzrl-rule-language
-/ai-parser
-/gis-engine
-/deployment-wizard
-/permit-templates
-/municipalities
-/data-layers
+Capabilities include:
 
+- Parcel selection
+- Interactive mapping
+- Proposed structure placement
+- Structure dimensions
+- Setback simulation
+- Height simulation
+- Lot coverage simulation
+- Zoning use simulation
+- Permit requirement estimation
+- Compliance testing
+- Violation explanations
+- Scenario comparison
 
----
+Simulation results shall clearly distinguish preliminary guidance from official municipal determinations.
 
-# Technology Stack (Example)
+### Public Portal Module
 
-UrbanLayer is designed to be flexible and modular.
+The Public Portal Module provides public-facing access to municipal information and services.
 
-Possible stack:
+Capabilities include:
 
-Frontend
-- React
+- Property lookup
+- Zoning lookup
+- Permit requirement lookup
+- Permit applications
+- Permit status
+- Document submission
+- Compliance guidance
+- Property simulation
+- Regulatory search
+- Public regulatory information
 
-Backend
-- Node.js or Python
+Municipalities shall control which information and services are publicly accessible.
 
-Database
-- PostgreSQL
-- PostGIS
+### Municipal Administration Module
 
-GIS Tools
-- OpenStreetMap
-- Leaflet
-- Mapbox
+The Municipal Administration Module provides administrative controls.
 
-AI Components
-- Local LLM for regulation parsing
-- Computer vision models for plan analysis
+Capabilities include:
 
----
+- User management
+- Department management
+- Role management
+- Permissions
+- Review assignments
+- Application queues
+- Municipal settings
+- Rule management
+- Workflow management
+- Data management
+- Audit access
 
-# Municipal Data Layers
+### Audit and Provenance Module
 
-UrbanLayer supports the following spatial datasets:
+The Audit and Provenance Module records important system and regulatory events.
 
-1. Parcel boundaries
-2. Zoning districts
-3. Flood hazard zones
-4. Wetlands and environmental protections
-5. Infrastructure networks
-6. Historic preservation districts
-7. Elevation and terrain data
+Capabilities include:
 
-These layers allow accurate compliance evaluation.
+- Rule changes
+- Rule approvals
+- Application changes
+- Workflow events
+- Administrative actions
+- AI-generated content
+- Human approvals
+- Data imports
+- Data updates
+- Source changes
+- Configuration changes
 
----
+Audit records shall support accountability and regulatory traceability.
 
-# Open Governance Model
+### Regulatory Versioning Module
 
-UrbanLayer encourages collaborative municipal rule libraries.
+The Regulatory Versioning Module manages changes to municipal regulations over time.
 
-Cities can:
+Capabilities include:
 
-- share zoning rule templates
-- reuse permit workflows
-- contribute improvements
-- adopt best practices
+- Rule versions
+- Effective dates
+- Historical rules
+- Future rules
+- Amendments
+- Repealed rules
+- Rule comparisons
+- Change histories
+- Version selection
+- Historical compliance evaluation
 
-Over time this creates a **global open repository of municipal regulations**.
+The system shall be capable of determining which rule version applies to a transaction based on applicable dates.
 
----
+### Data Validation Module
 
-# Use Cases
+The Data Validation Module evaluates the quality and integrity of municipal datasets.
 
-UrbanLayer can support:
+Capabilities include:
 
-- building permits
-- accessory structure permits
-- fence permits
-- driveway permits
-- tree removal permits
-- business licensing
-- zoning compliance analysis
-- planning department workflows
+- Missing data detection
+- Duplicate detection
+- Invalid geometry detection
+- Projection validation
+- Layer completeness checks
+- Conflicting zoning detection
+- Outdated dataset detection
+- Data source validation
+- Data quality reporting
 
----
+### Deployment Module
 
-# Benefits
+The Deployment Module provides guided municipal installation and configuration.
 
-UrbanLayer helps municipalities:
+Capabilities include:
 
-- reduce permit review time
-- improve transparency
-- reduce administrative workload
-- modernize legacy systems
-- provide better services to residents
+- Municipality setup
+- Jurisdiction configuration
+- GIS data import
+- Regulatory document import
+- AI-assisted rule generation
+- Permit configuration
+- Workflow configuration
+- User configuration
+- Public portal configuration
+- Deployment validation
+- System health checks
 
----
+The deployment process shall be designed to minimize technical requirements for municipalities.
 
-# Future Development
+### Integration Module
 
-Potential future modules include:
+The Integration Module provides interoperability with external systems.
 
-- zoning code conflict detection
-- regulatory comparison tools
-- infrastructure planning simulations
-- automated environmental review
-- AI-assisted urban planning
+Capabilities include:
+
+- REST APIs
+- Geographic data services
+- Municipal databases
+- Document systems
+- Property systems
+- Permit systems
+- Identity systems
+- Mapping systems
+- External regulatory data
+- Data import and export
+
+The integration architecture shall avoid unnecessary vendor lock-in.
+
+### Security Module
+
+The Security Module provides platform security controls.
+
+Capabilities include:
+
+- Authentication
+- Authorization
+- Role-based access
+- Permission management
+- Secure document access
+- Audit logging
+- Administrative controls
+- Data access controls
+- Configuration protection
+
+Municipal deployments shall be capable of applying security requirements appropriate to their jurisdiction and use case.
+
+## Optional Plugin Modules
+
+Optional plugins extend UrbanLayer without modifying the core architecture.
+
+### Environmental Review Plugin
+
+Provides additional environmental analysis.
+
+Capabilities may include:
+
+- Wetland analysis
+- Habitat analysis
+- Conservation analysis
+- Environmental buffers
+- Protected-area analysis
+- Environmental permit guidance
+
+### Flood Analysis Plugin
+
+Provides advanced flood-related analysis.
+
+Capabilities may include:
+
+- Flood zone analysis
+- Elevation analysis
+- Floodplain checks
+- Required documentation identification
+- Flood-related compliance guidance
+
+### Historic Preservation Plugin
+
+Provides historic preservation analysis.
+
+Capabilities may include:
+
+- Historic district identification
+- Landmark identification
+- Preservation requirements
+- Design review requirements
+- Historic permit workflows
+
+### Infrastructure Planning Plugin
+
+Provides infrastructure-related planning analysis.
+
+Capabilities may include:
+
+- Utility proximity
+- Road access
+- Sewer availability
+- Water availability
+- Stormwater infrastructure
+- Infrastructure capacity analysis
+
+### Advanced Planning Plugin
+
+Provides advanced planning and development analysis.
+
+Capabilities may include:
+
+- Development scenarios
+- Density analysis
+- Land-use analysis
+- Development constraints
+- Planning simulations
+- Infrastructure impact analysis
+
+### Regulatory Comparison Plugin
+
+Provides cross-jurisdiction regulatory analysis.
+
+Capabilities may include:
+
+- Municipality comparisons
+- Zoning comparison
+- Permit comparison
+- Regulatory differences
+- Rule similarity analysis
+- Regulatory benchmarking
+
+### Regulatory Conflict Plugin
+
+Detects potential conflicts within municipal regulations.
+
+Capabilities may include:
+
+- Contradictory rules
+- Duplicate requirements
+- Cross-reference conflicts
+- Conflicting definitions
+- Outdated references
+- Regulatory dependency problems
+
+### Regulatory Change Monitoring Plugin
+
+Monitors regulatory sources for changes.
+
+Capabilities may include:
+
+- Source monitoring
+- Ordinance change detection
+- Amendment detection
+- Rule change alerts
+- Source version comparison
+- Municipal review queues
+
+### Advanced AI Planning Plugin
+
+Provides optional AI-assisted planning capabilities.
+
+Capabilities may include:
+
+- Development scenario generation
+- Planning analysis
+- Land-use recommendations
+- Infrastructure scenario modeling
+- Planning document analysis
+- Policy impact analysis
+
+AI recommendations shall remain subject to municipal review and applicable law.
+
+### Building Plan Analysis Plugin
+
+Provides advanced analysis of architectural and engineering plans.
+
+Capabilities may include:
+
+- Plan interpretation
+- Dimension extraction
+- Building footprint analysis
+- Floor-area analysis
+- Setback measurement
+- Structure identification
+- Compliance pre-checking
+
+### Three-Dimensional Property Plugin
+
+Provides optional three-dimensional visualization.
+
+Capabilities may include:
+
+- 3D property models
+- Proposed structure visualization
+- Height visualization
+- Terrain visualization
+- Development scenarios
+- Spatial conflict visualization
+
+### Open Municipal Rule Library Plugin
+
+Provides collaborative sharing of municipal rules.
+
+Capabilities may include:
+
+- Rule publishing
+- Rule discovery
+- Rule templates
+- Municipal contributions
+- Rule validation
+- Rule versioning
+- Source attribution
+- Community review
+
+## Human Oversight
+
+UrbanLayer shall distinguish between:
+
+- Official municipal determinations
+- Automated compliance checks
+- AI-generated interpretations
+- Preliminary citizen guidance
+- Simulation results
+
+AI-generated regulatory interpretations shall not automatically become authoritative without an appropriate municipal approval process.
+
+Municipal staff shall retain control over official regulatory decisions.
+
+## Regulatory Transparency
+
+UrbanLayer shall provide mechanisms for users to understand how a compliance result was generated.
+
+Where applicable, results should identify:
+
+- Applicable municipality
+- Applicable zoning district
+- Rules evaluated
+- Regulatory source
+- Rule version
+- Effective date
+- Relevant geographic layers
+- Compliance result
+- Violations
+- Conditions
+- Human review requirements
 
 ---
 
@@ -325,15 +709,10 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- UrbanLayer specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- UrbanLayer specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.  
   Any update that adds new contributors or modifies attribution should also update `notice.md`.
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
-For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
----
-
-# UrbanLayer
-
-*City regulations, instantly understood.*
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.  
