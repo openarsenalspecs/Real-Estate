@@ -1,4 +1,8 @@
 # OpenProperty Specification
+**Transparency for Every Home**
+- HTML Mirror:  [https://roxanneardary.com/openproperty-specification/](https://roxanneardary.com/openproperty-specification/)
+
+---
 
 ## Overview
 
@@ -50,6 +54,8 @@ OpenProperty shall be designed around the following principles:
 - User ownership of information
 - No unnecessary vendor lock-in
 - Clear distinction between facts, claims, assumptions, recommendations, and unknowns
+
+---
 
 # Core Modules
 
@@ -645,7 +651,6 @@ Extensions shall not require unnecessary modification of the OpenProperty core.
 # Specialized Applications
 
 ## HouseLens
-[https://roxanneardary.com/houselens/](https://roxanneardary.com/houselens/)  
 
 HouseLens shall provide the buyer and renter experience within the OpenProperty ecosystem.
 
@@ -664,7 +669,6 @@ HouseLens shall focus on:
 - Transaction preparation
 
 ## TrustLens
-[https://roxanneardary.com/trustlens/](https://roxanneardary.com/trustlens/)  
 
 TrustLens shall provide the seller and property owner experience within the OpenProperty ecosystem.
 
@@ -1145,7 +1149,7 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- OpenProperty specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- OpenProperty specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.   
   Any update that adds new contributors or modifies attribution should also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
