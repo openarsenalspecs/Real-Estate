@@ -1,6 +1,8 @@
 # PlotLedger Specification
-
 **The Future of Parcel Intelligence**
+- HTML Mirror: [https://roxanneardary.com/plotledger-specification/](https://roxanneardary.com/plotledger-specification/)
+
+---
 
 PlotLedger is an open-source AI-powered parcel intelligence platform for identifying, organizing, and analyzing properties of nine or more contiguous acres across the United States. The system combines parcel boundaries, ownership records, sale history, zoning regulations, permits, applications, variances, special districts, and other public records into a unified analytical framework.
 
@@ -38,6 +40,8 @@ PlotLedger shall be designed around the following principles:
 - **Human review:** Legal and regulatory conclusions shall be presented as analytical findings rather than substitutes for professional legal advice.
 - **Interoperability:** Data should use documented schemas and standard geospatial formats wherever practical.
 - **Vendor independence:** The system shall avoid unnecessary dependence on proprietary data providers or closed platforms.
+
+---
 
 # Core Modules
 
@@ -615,71 +619,6 @@ The system shall:
 - Clearly identify third-party datasets and their licensing conditions.
 - Provide mechanisms for correcting inaccurate records where appropriate.
 
-# Legal and Regulatory Disclaimer
-
-PlotLedger is an information and analytical system. It does not provide legal advice, determine legal rights, or replace review by qualified professionals.
-
-A difference between a baseline zoning requirement and an approved development condition does not by itself establish that an unlawful action occurred. Regulatory findings shall be supported by source records and presented according to the legal mechanism documented in the applicable record.
-
-# Data Source Requirements
-
-PlotLedger should prioritize authoritative sources, including:
-
-- County property appraisers.
-- County assessors.
-- County GIS systems.
-- Municipal GIS systems.
-- County recorders.
-- Municipal permit systems.
-- Planning departments.
-- Zoning departments.
-- Public legislative records.
-- Official municipal and county codes.
-- Official state records.
-- Other authoritative public sources.
-
-Secondary sources may supplement authoritative records but shall not silently replace them.
-
-# Security
-
-PlotLedger shall protect stored credentials, API keys, private configuration, and other sensitive technical information.
-
-The system shall:
-
-- Never expose provider credentials in public datasets.
-- Separate credentials from source code.
-- Validate imported data.
-- Sanitize externally supplied content.
-- Log relevant system events.
-- Protect administrative functions.
-- Provide configurable access controls where required.
-- Preserve audit information for important data transformations.
-
-# Testing
-
-Testing shall cover:
-
-- Parcel geometry.
-- Acreage calculations.
-- Contiguity detection.
-- Ownership matching.
-- Sale history matching.
-- Permit-to-parcel matching.
-- Zoning classification.
-- Legal document extraction.
-- Regulatory comparison.
-- AI output validation.
-- Source provenance.
-- Historical versioning.
-- Data update processes.
-
-Tests shall include edge cases involving irregular parcels, ownership changes, parcel splits, parcel mergers, annexations, jurisdictional changes, and conflicting source records.
-
----
-
-**PlotLedger**  
-*The Future of Parcel Intelligence*
-
 ---
 
 ## Specification Branding License (SBL)
@@ -709,10 +648,10 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- PlotLedger specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- PlotLedger specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.   
   Any update that adds new contributors or modifies attribution should also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
-For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.  
