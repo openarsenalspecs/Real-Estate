@@ -79,7 +79,7 @@ HelixPlan is an open-source spatial intelligence system that reconstructs accura
   [https://roxanneardary.com/nexa/](https://roxanneardary.com/nexa/)   
   Nexa: Continuity Engine is a generational wealth operating system that structures and governs long-term financial systems using programmable trust logic, lifecycle rules, and multi-trust network architecture. It enables simulation and management of inheritance, assets, and governance across decades to support sustained wealth continuity across generations.
 
-- [**OpenProperty Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/319dfdfab2046c7b95cc8ba8025f955c5008559c/OpenProperty.md)  
+- [**OpenProperty Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/67f8ed1197ec0dd9897b85eeb210c865e34bd62a/OpenProperty.md)  
   [https://roxanneardary.com/openproperty/](https://roxanneardary.com/openproperty/)  
   An open-source real estate transparency platform that uses AI to verify disclosures, permits, and compliance for buyers, renters, and sellers. It aims to build trust through verifiable property information.
 
