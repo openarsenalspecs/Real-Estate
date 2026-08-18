@@ -1,19 +1,12 @@
 # HappyHouse
-
 **Protect, maintain, and enjoy your home.**
-
-HappyHouse is a comprehensive, AI-powered home maintenance and property intelligence platform designed to track, manage, and optimize every aspect of a home — from appliances and roofs to solar systems, septic systems, well water systems, and individual replacement parts.
-
-It combines structured data, automated scheduling, and AI insights to give homeowners and professionals complete visibility and control over their property.
+- HTML Mirror:  [https://roxanneardary.com/happyhouse-specification/](https://roxanneardary.com/happyhouse-specification/)
 
 ---
 
-## Attribution
+HappyHouse is a comprehensive, AI-powered home maintenance and property intelligence platform designed to track, manage, and optimize every aspect of a home, from appliances and roofs to solar systems, septic systems, well water systems, and individual replacement parts.
 
-Design & concept by [Roxanne Ardary](https://roxanneardary.com)  
-License: AGPL-3.0  
-
-All architecture, modules, and system design originate from Roxanne Ardary.
+It combines structured data, automated scheduling, and AI insights to give homeowners and professionals complete visibility and control over their property.
 
 ---
 
@@ -202,20 +195,7 @@ Extended tables:
 - Parts  
 - PartUsageHistory  
 
-Full schema available in `/database/schema.sql`.
-
----
-
-## User Flow
-
-1. Add inventory item or system (appliance, roof, solar, septic, or well)  
-2. Upload invoice or enter data manually  
-3. AI extracts and populates data automatically  
-4. System calculates maintenance and service schedules  
-5. Dashboard displays upcoming and overdue tasks  
-6. Log service events and parts replaced  
-7. Track water quality (if applicable)  
-8. Generate full property report and insights  
+Full schema available in `/database/schema.sql`.  
 
 ---
 
@@ -227,50 +207,7 @@ Full schema available in `/database/schema.sql`.
 - Secure API key storage via OS keychain or encrypted storage  
 - Client-side PII scrubbing before AI requests  
 
-⚠️ If the master password is lost, data cannot be recovered.
-
----
-
-## Platforms
-
-| Platform | Support |
-|--------|--------|
-| Web | React + Node.js or browser-based |
-| Desktop | Electron / Taurii |
-| Mobile | React Native / Capacitor |
-| Offline | IndexedDB / SQLite |
-
----
-
-## Getting Started
-
-### Requirements
-
-- Node.js 18+  
-- npm or yarn  
-
-### Installation
-
-```bash
-git clone https://codeberg.org/YOUR_USERNAME/HappyHouse.git
-cd HappyHouse
-npm install
-npm start
-```
-# Project Structure
-```text
-HappyHouse/
-├── backend/
-├── frontend/
-├── database/
-├── modules/
-├── scripts/
-├── README.md
-└── package.json
-```
-# Contributing
-
-Contributions are welcome.
+⚠️ If the master password is lost, data cannot be recovered.  
 
 ---
 
@@ -301,7 +238,7 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, network deployments, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- **HappyHouse** specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- **HappyHouse** specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.  
   Any update that adds new contributors or modifies attribution **must also update `notice.md`**.
 - When submitting a pull request, ensure that any new files maintain the correct attribution headers where applicable.
