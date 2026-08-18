@@ -51,7 +51,7 @@ HelixPlan is an open-source spatial intelligence system that reconstructs accura
   [https://roxanneardary.com/houselens/](https://roxanneardary.com/houselens/)  
   An open-source AI-powered platform that helps buyers and renters analyze property disclosures, verify compliance, and uncover risks before making a real estate decision. It focuses on transparency and informed decision-making in property transactions.
 
-- [**InspectHome Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/156dc7eb3d2301698aab05ee8ff26c94670a1637/InspectHome.md)    
+- [**InspectHome Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/dd169659e3badcfa462d623778750aa0e1b6973a/InspectHome.md)  
   [https://roxanneardary.com/inspecthome/](https://roxanneardary.com/inspecthome/)  
   An open-source, transparency-first real estate platform that requires full property disclosures, verified documentation, and encrypted user data. It promotes confident home buying.
 
