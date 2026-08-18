@@ -1,213 +1,342 @@
-# HappyHouse
-**Protect, maintain, and enjoy your home.**
-- HTML Mirror:  [https://roxanneardary.com/happyhouse-specification/](https://roxanneardary.com/happyhouse-specification/)
+# InspectHome
+**Find Homes With Confidence.**
+- HTML Mirror:  [https://roxanneardary.com/inspecthome-specification/](https://roxanneardary.com/inspecthome-specification/)
 
 ---
 
-HappyHouse is a comprehensive, AI-powered home maintenance and property intelligence platform designed to track, manage, and optimize every aspect of a home, from appliances and roofs to solar systems, septic systems, well water systems, and individual replacement parts.
+InspectHome is an **open-source, transparency-first real estate platform** that replaces traditional listing systems with a **verification-based property network**. Every listing is required to include full disclosures, supporting documents, and source attribution before it can be published.
 
-It combines structured data, automated scheduling, and AI insights to give homeowners and professionals complete visibility and control over their property.
-
----
-
-## Overview
-
-HappyHouse centralizes all property-related data into a single intelligent system:
-
-- Inventory tracking  
-- Maintenance scheduling  
-- Service history logging  
-- Warranty monitoring  
-- AI-powered insights  
-- Property-wide reporting  
-- Part-level tracking and diagnostics  
-- Water system and infrastructure tracking  
+Unlike conventional real estate platforms that prioritize advertising and lead generation, InspectHome is built around **truth, documentation, encryption, and accountability**.
 
 ---
 
-## Core Features
+# Specification
 
-- Centralized home inventory system  
-- AI-powered maintenance recommendations  
-- Automated service scheduling and reminders  
-- Warranty tracking with color-coded alerts  
-- Service records with full history and receipts  
-- Property-wide reporting and analytics  
-- Chronological event timeline  
-- Zero-knowledge encryption for privacy  
-- Offline-first architecture  
+## 1. Mandatory Property Disclosure System
 
----
+Every listing must complete a legally structured disclosure form before publication.
 
-## Modules
+### Required disclosure fields include:
 
-### Inventory Management
-- Track appliances and home systems  
-- Store purchase date, price, warranty, and notes  
-- Upload invoices for automatic data extraction  
-- Color-coded warranty status  
+- Structural condition  
+- Roof age and condition  
+- HVAC system status  
+- Plumbing and electrical systems  
+- Water damage history  
+- Flooding history  
+- Pest or termite history  
+- Known defects or repairs  
+- Insurance claims history  
+- Renovation history  
+- Environmental hazards  
 
----
+### Enforcement:
 
-### Service Records
-- Log all maintenance and repairs  
-- Track providers, costs, and parts replaced  
-- Attach receipts and documentation  
-- Auto-update maintenance schedules  
+- Listings cannot be published without full disclosure completion  
+- Disclosure requirements adapt by **state and jurisdiction**  
+- Missing or incomplete disclosures block publication  
 
 ---
 
-### Warranty Tracker
-- Active / expiring / expired status  
-- Dashboard alerts for expiring warranties  
-- Integrated with all modules  
+## 2. Document Vault (Encrypted Upload System)
+
+Sellers and landlords can upload verified property documents.
+
+### Supported documents:
+
+- Property deed  
+- Title documents  
+- Home inspection reports  
+- Surveys  
+- Renovation receipts  
+- Permits and zoning approvals  
+- Warranties (roof, HVAC, appliances)  
+- Insurance documentation  
+- HOA documents  
+- Maintenance records  
+
+### Security:
+
+- All documents are **client-side encrypted before upload**  
+- The server never has access to raw document data  
+- Zero-knowledge architecture ensures host cannot decrypt data  
 
 ---
 
-### Part Locator
-- Identify compatible replacement parts for any appliance or system  
-- Store OEM and aftermarket part numbers  
-- AI-assisted part diagnosis based on symptoms  
-- Track part replacement history and costs  
-- Predict part lifecycle and failure intervals  
-- Fully integrated with service records and inventory  
+## 3. AI Listing Assistant & Compliance Engine
+
+An AI system guides users through listing creation and ensures compliance.
+
+### AI capabilities:
+
+- State-by-state real estate advertising law compliance  
+- Fair housing law detection and enforcement  
+- Listing description improvement suggestions  
+- Detection of misleading or illegal phrasing  
+- Required disclosure prompting  
+- Document recommendation system  
+
+### Example enforcement:
+
+- Flags discriminatory language  
+- Requires correction before listing publication  
+- Prevents unsupported property claims  
 
 ---
 
-### Roof Module
-- Full roofing system tracking  
-- Material, installer, slope, and structural details  
-- Invoice upload with AI auto-fill  
-- Repair and inspection history  
-- Warranty tracking (material + labor)  
-- Auto-calculated inspection schedules  
+## 4. Government Data Integration
+
+InspectHome integrates publicly available government and municipal property data to enhance listing accuracy and provide independent verification layers alongside seller-submitted information.
+
+### Integrated Data Sources May Include:
+
+- County property tax records  
+- Parcel and cadastral data  
+- Zoning and land-use classifications  
+- Building permits and inspection filings  
+- Code violations and enforcement records  
+- Flood zone and environmental hazard maps  
+- Property boundary and GIS data  
+- Assessor and valuation records (where publicly available)  
+
+### Purpose of Integration:
+
+- Cross-check seller disclosures against official records  
+- Improve listing accuracy and reduce misinformation  
+- Provide buyers with independent, verifiable context  
+- Surface potential risks or inconsistencies in property history  
+- Enhance transparency without relying solely on user-submitted data  
+
+### Data Handling Principles:
+
+- Government data is treated as a **read-only verification layer**  
+- No modification of official records is permitted within the system  
+- Data is displayed alongside listings for contextual analysis only  
+- All integrated datasets are attributed to their original public sources where required  
 
 ---
 
-### Solar Module
-- Panel, inverter, and battery tracking  
-- Installation and system specifications  
-- Panel-level monitoring and replacement tracking  
-- AI-generated maintenance schedules  
-- Warranty tracking and alerts  
-- Permit and insurance records  
+## 5. Listing Source Attribution System
+
+Every listing must include its original source.
+
+### Required fields:
+
+- Brokerage name (if applicable)  
+- Original listing URL  
+- Listing agent (where required by law)  
+- Listing origin type (owner, brokerage, builder)  
+
+### Enforcement:
+
+- Listings without valid source attribution cannot be published  
+- Source links are permanently displayed on listing pages  
 
 ---
 
-### Septic Module
-- Septic system configuration and tracking  
-- Pumping and inspection history  
-- Auto-calculated service intervals  
-- AI maintenance recommendations  
-- Cost and repair tracking  
+## 6. Neighborhood Intelligence System
+
+Provides contextual data about the surrounding area.
+
+### Includes:
+
+- School district quality  
+- Crime trends and statistics  
+- Flood and environmental risk  
+- Insurance cost estimates  
+- Property tax trends  
+- Zoning and development plans  
+- Transportation access  
+- Broadband availability  
+- Investor ownership density  
+- Short-term rental concentration  
+- Market appreciation trends  
 
 ---
 
-### Well Water Module
-- Track well systems, pumps, tanks, and filtration  
-- Store pump specifications (type, brand, model, horsepower)  
-- Pressure tank and system configuration tracking  
-- Water quality test logging (pH, iron, sulfur, hardness, bacteria)  
-- Pump and component lifecycle tracking  
-- AI-powered diagnostics for pressure issues and failures  
-- Automatic maintenance scheduling and alerts  
-- Full integration with Part Locator and Service Records  
+## 7. Property Timeline System
+
+Each property includes a permanent chronological record.
+
+### Timeline events:
+
+- Construction date  
+- Ownership transfers  
+- Renovations and upgrades  
+- Building permits  
+- Inspections  
+- Repairs and maintenance  
+- Insurance claims (when available)  
+- Price history  
+- Listing history  
+
+The timeline evolves over time, creating a **living property record**.
 
 ---
 
-### Property Report
-Generate a complete professional report including:
+## 8. AI Fraud Detection System
 
-1. Property Overview  
-2. Full Maintenance History  
-3. Roof System Status  
-4. Appliance & Systems Inventory  
-5. Warranty Summary  
-6. Investment Breakdown by Category  
-7. Outstanding Issues  
-8. Recommendations & Upcoming Actions  
-9. Overall Property Condition Assessment  
+InspectHome uses AI to detect fraudulent or suspicious listings.
 
-- Export as a printable PDF  
+### Detection includes:
 
----
+- Duplicate listings across platforms  
+- Stolen or reused images  
+- AI-generated or manipulated images  
+- Metadata inconsistencies  
+- Fake landlord or brokerage identities  
+- Suspicious pricing patterns  
+- Address mismatches  
+- Forged or altered documents  
+- Permit inconsistencies  
+- Scam pattern recognition  
 
-### History Timeline
-- Chronological record of all events across all modules  
-- Includes purchases, repairs, inspections, services, and upgrades  
-- Filterable by event type  
-- Fully integrated system-wide  
+### Enforcement:
 
----
-
-### Pro Workspace
-- Cosmetic personalization for licensed professionals  
-- Add profile photo, business name, license, and contact details  
-- No modification to application logic or UI structure  
+- Flagged listings enter review queue  
+- High-risk listings are blocked from publishing  
 
 ---
 
-### API Explorer
-- Interactive interface for all endpoints  
-- View live JSON responses  
-- Test CRUD operations and AI features  
+## 9. Ownership Transparency System
+
+Where legally available, InspectHome surfaces ownership structures.
+
+### Includes:
+
+- LLC ownership detection  
+- Corporate ownership identification  
+- Investment entity tracking  
+- Ownership portfolio size (number of properties held)  
+
+This helps reveal institutional ownership patterns in housing markets.
 
 ---
 
-## AI Features
+## 10. Property Risk Dashboard
 
-- `/ai/prioritize` — Rank maintenance tasks  
-- `/ai/predict` — Predict upcoming maintenance needs  
-- `/ai/estimate-cost` — Estimate repair and maintenance costs  
-- `/ai/tips` — Provide maintenance guidance  
-- `/ai/warranty` — Analyze warranty risks  
-- `/ai/part-lookup` — Identify compatible parts  
-- `/ai/diagnose-part` — Suggest failing components  
-- `/ai/predict-septic` — Septic system insights  
-- `/ai/well-diagnose` — Diagnose well system issues  
-- `/ai/well-predict` — Predict pump and component failure  
-- `/ai/well-water-analysis` — Analyze water quality data  
-- `/ai/auto-fill` — Extract data from invoices and receipts  
+Each property includes a risk summary.
+
+### Risk categories:
+
+- Flood risk  
+- Insurance risk  
+- Structural risk (based on disclosures)  
+- Market volatility risk  
+- Investor concentration risk  
+- Permit compliance risk  
 
 ---
 
-## Database Overview
+## 11. Federated Network Architecture
 
-Core tables:
+InspectHome is designed as a **federated system**, not a centralized platform.
 
-- Categories  
-- Tasks  
-- TaskSchedule  
-- ServiceProviders  
-- HomeInventory  
-- NotesPhotos  
+### Supported operators:
 
-Extended tables:
+- Independent brokerages  
+- Municipal governments  
+- Housing cooperatives  
+- Universities  
+- Nonprofit organizations  
+- Private self-hosted instances  
 
-- ProfessionalProfiles  
-- Roofs  
-- SolarSystems  
-- SepticSystems  
-- SepticServiceRecords  
-- WellSystems  
-- WellServiceRecords  
-- WaterTests  
-- Parts  
-- PartUsageHistory  
+### Federation features:
 
-Full schema available in `/database/schema.sql`.  
+- Optional listing sharing between trusted instances  
+- Local control over moderation and policies  
+- Geographic segmentation per instance  
+- Decentralized hosting capability  
 
 ---
 
-## Security & Privacy
+## 12. End-to-End Encryption System
 
-- AES-256-GCM encryption for all stored data  
-- PBKDF2-derived master key (password never stored)  
-- Zero-knowledge architecture  
-- Secure API key storage via OS keychain or encrypted storage  
-- Client-side PII scrubbing before AI requests  
+InspectHome uses zero-knowledge encryption for sensitive data.
 
-⚠️ If the master password is lost, data cannot be recovered.  
+### Encrypted data includes:
+
+- User identities  
+- Private messages  
+- Uploaded documents  
+- Disclosure forms  
+- Buyer-seller communications  
+
+### Security model:
+
+- Encryption occurs client-side  
+- Server stores only ciphertext  
+- Host cannot decrypt private data  
+
+---
+
+## 13. Buyer Tools
+
+InspectHome provides buyer-side utilities.
+
+### Features:
+
+- Save and compare listings  
+- Document access requests  
+- AI-generated property summaries  
+- Risk evaluation reports  
+- Neighborhood comparison tools  
+- Offer tracking workspace  
+
+---
+
+## 14. Seller Tools
+
+Sellers receive structured listing assistance.
+
+### Features:
+
+- Guided listing wizard  
+- Disclosure automation  
+- Document upload system  
+- Compliance validation  
+- AI writing assistance  
+- Legal prompt warnings  
+
+---
+
+## 15. Open API & Data Access
+
+InspectHome supports open data access for research and transparency.
+
+### Includes:
+
+- Market trends  
+- Disclosure statistics  
+- Permit activity data  
+- Price history datasets  
+- Neighborhood analytics  
+
+---
+
+# Technical Stack (Reference Implementation)
+
+Backend:
+- Python
+- FastAPI
+- PostgreSQL + PostGIS
+- Redis
+
+Search:
+- Elasticsearch or Typesense
+
+Scraping:
+- Scrapy
+- Playwright
+
+Frontend:
+- React / Next.js
+- MapLibre
+- TailwindCSS
+
+Infrastructure:
+- Docker
+- Self-hosted deployment support
 
 ---
 
@@ -224,25 +353,24 @@ Full schema available in `/database/schema.sql`.
 - **Specification Branding License (SBL)**
   - Attribution-free commercial deployment
   - Pricing based on scale, usage, and deployment scope
-  - [https://roxanneardary.com/happyhouse/](https://roxanneardary.com/happyhouse/)
+  - [https://roxanneardary.com/inspecthome/](https://roxanneardary.com/inspecthome/)
 
----
+----
 
 ## License & Notice Requirements
 
-**HappyHouse** is released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.  
+InspectHome is released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.  
 By contributing to this project, you agree that your contributions will also be released under this license.
 
 Please note the following:
 
 - All contributions must comply with the **AGPL-3.0+** terms.  
-- Under **Section 7** of the license, all redistributions, forks, network deployments, and derivative works must preserve attribution to:  
+- Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- **HappyHouse** specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- InspectHome specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.  
-  Any update that adds new contributors or modifies attribution **must also update `notice.md`**.
-- When submitting a pull request, ensure that any new files maintain the correct attribution headers where applicable.
-- All contributions must follow the established repository structure, naming conventions, and documentation formatting used throughout the project.
+  Any update that adds new contributors or modifies attribution should also update `notice.md`. 
+- When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
-For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.  
