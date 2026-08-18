@@ -1,6 +1,8 @@
 # InspectHome
+**Find Homes With Confidence.**
+- HTML Mirror:  [https://roxanneardary.com/inspecthome-specification/](https://roxanneardary.com/inspecthome-specification/)
 
-**InspectHome — Find Homes With Confidence.**
+---
 
 InspectHome is an **open-source, transparency-first real estate platform** that replaces traditional listing systems with a **verification-based property network**. Every listing is required to include full disclosures, supporting documents, and source attribution before it can be published.
 
@@ -8,21 +10,7 @@ Unlike conventional real estate platforms that prioritize advertising and lead g
 
 ---
 
-# Core Vision
-
-InspectHome exists to transform real estate into a **verifiable data system** rather than a marketing-driven listing feed.
-
-The platform ensures:
-
-- Every property has a complete disclosure record  
-- Every claim can be verified or flagged  
-- Every document is securely stored and encrypted  
-- Every listing includes its original source  
-- Every user retains full control over their sensitive data  
-
----
-
-# Full Feature Specification
+# Specification
 
 ## 1. Mandatory Property Disclosure System
 
@@ -379,32 +367,10 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- InspectHome specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- InspectHome specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.  
   Any update that adds new contributors or modifies attribution should also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
-For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
-
----
-
-## Getting Started
-
-Because this platform handles encrypted user data, setup requires:
-1. Environment variable configuration  
-2. Encryption key generation  
-3. Database initialization  
-4. Running backend and frontend containers  
-
-Detailed setup instructions can be found in the project’s `docs/Workflow.md`.
-
----
-
-## Contributing
-
-Contributions are welcome!  
-Please read the **CONTRIBUTING.md** file before submitting pull requests.  
-All contributions must follow the licensing and attribution requirements.
-
----
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.  
