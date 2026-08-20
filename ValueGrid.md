@@ -1,30 +1,14 @@
 # ValueGrid
-
-The Open Ledger of Property Intelligence
-
-ValueGrid is an open-source property intelligence platform designed to create a transparent, verifiable, and publicly accessible foundation for understanding real estate value.
-
-By combining advanced valuation models, environmental risk analysis, survey intelligence, regulatory datasets, and a National Property Ledger, ValueGrid provides a trusted infrastructure for appraisers, lenders, researchers, developers, and the public.
-
-The goal is to build a system that meets or exceeds the capabilities of proprietary platforms such as :contentReference[oaicite:0]{index=0}, while remaining open, auditable, and accessible.
-
-ValueGrid is built to support professional appraisal workflows, regulatory compliance, and public transparency across the entire property ecosystem.
+**The Open Ledger of Property Intelligence**
+- HTML Mirror:  [https://roxanneardary.com/valuegrid-specification/](https://roxanneardary.com/valuegrid-specification/)
 
 ---
 
-# Vision
+ValueGrid is an open-source property intelligence platform designed to create a transparent, verifiable, and publicly accessible foundation for understanding real estate value.
 
-Real estate markets rely on accurate, transparent data. Today, much of that information is locked inside proprietary systems or fragmented across government agencies.
+By combining advanced valuation models, environmental risk analysis, survey intelligence, regulatory datasets, and a National Property Ledger, ValueGrid provides a trusted infrastructure for appraisers, lenders, researchers, developers, and the public.  The goal is to build a system that meets or exceeds the capabilities of proprietary platforms.
 
-ValueGrid aims to create a unified, open infrastructure where property intelligence is:
-
-• Transparent  
-• Verifiable  
-• Publicly accessible  
-• Professionally reliable  
-• Continuously improving
-
-The platform is designed to become the **open standard for property intelligence and valuation data**.
+ValueGrid is created to support professional appraisal workflows, regulatory compliance, and public transparency across the entire property ecosystem.
 
 ---
 
@@ -369,56 +353,6 @@ Clear, accessible information about property conditions and risks.
 
 ---
 
-# System Architecture
-
-
-Data Sources
-↓
-Data Ingestion & Validation
-↓
-National Property Ledger
-↓
-Verification Layer
-↓
-Public Property Intelligence Database
-↓
-Public Map Interface + API
-
-
----
-
-# Contributing
-
-ValueGrid is an open-source project and welcomes contributions from:
-
-• developers  
-• GIS specialists  
-• appraisers  
-• surveyors  
-• economists  
-• researchers
-
-Ways to contribute include:
-
-• improving valuation models  
-• integrating datasets  
-• building visualization tools  
-• improving documentation
-
----
-
-# Roadmap
-
-Planned development areas include:
-
-• automated permit detection  
-• historical aerial imagery analysis  
-• infrastructure capacity mapping  
-• machine learning valuation improvements  
-• international property data support
-
----
-
 ## Specification Branding License (SBL)
 ### Standard
 - Fully AGPL-3.0+ compliant system
@@ -446,17 +380,10 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- ValueGrid specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- ValueGrid specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.  
   Any update that adds new contributors or modifies attribution should also update `notice.md`.
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
-For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
----
-
-# Project Status
-
-ValueGrid is currently in early development.
-
-The goal is to build a robust open platform that can support transparent property intelligence across the real estate ecosystem.
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.  
