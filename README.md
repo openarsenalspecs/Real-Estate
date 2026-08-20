@@ -119,7 +119,7 @@ HelixPlan is an open-source spatial intelligence system that reconstructs accura
   [https://roxanneardary.com/urbanlayer/](https://roxanneardary.com/urbanlayer/)  
   An open-source municipal infrastructure platform for zoning, permitting, GIS analysis, and AI-powered regulatory automation. It supports property development and urban planning.
 
-- [**ValueGrid Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/589edac64217723db76dd9041f2455d0449249e2/ValueGrid.md)    
+- [**ValueGrid Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/6c7ba5c701c5378e7f6c60800165a7f6131bee6c/ValueGrid.md)  
   [https://roxanneardary.com/valuegrid/](https://roxanneardary.com/valuegrid/)  
   An open-source property intelligence platform that provides transparent valuation models, environmental risk analysis, and a publicly verifiable National Property Ledger. It enhances data-driven real estate decisions.
 
