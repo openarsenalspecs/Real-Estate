@@ -43,7 +43,7 @@ AppealRight is an AI-powered property tax assessment analysis specification that
   [https://roxanneardary.com/habitasense/](https://roxanneardary.com/habitasense/)  
   An open-source AI-powered platform that delivers transparent, data-driven analysis of rental and home ownership markets. It supports market transparency.
 
-[- [**HappyHouse Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/dc795a5139280bcefc66b66b938b9c3857c3d84f/HappyHouse.md)  ](https://github.com/openarsenalspecs/Real-Estate/blob/152e993b781961c429cfe286a2d4e433f85d73e9/HappyHouse.md)
+- [**HappyHouse Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/dc795a5139280bcefc66b66b938b9c3857c3d84f/HappyHouse.md)  (https://github.com/openarsenalspecs/Real-Estate/blob/152e993b781961c429cfe286a2d4e433f85d73e9/HappyHouse.md)
   [https://roxanneardary.com/happyhouse/](https://roxanneardary.com/happyhouse/)  
   An AI-powered home maintenance and property intelligence platform for tracking systems, managing repairs, and predicting maintenance needs. It helps property owners maintain their assets.
 
