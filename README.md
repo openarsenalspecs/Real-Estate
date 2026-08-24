@@ -23,6 +23,10 @@ All specifications are released under the GNU Affero General Public License v3.0
 
 ## Real Estate Specs
 
+- [**AppealRight Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/b37fb948a23eb77247796a1c25337f722abe1d73/AppealRight.md)  
+[https://roxanneardary.com/appealright/](https://roxanneardary.com/appealright/)  
+AppealRight is an AI-powered property tax assessment analysis specification that evaluates recent comparable sales, assessment calculations, tax relief programs, appeal risks, and potential tax savings. It helps property owners determine whether their property may be over-assessed and whether pursuing a tax appeal could reduce their property tax burden.
+
 - [**CasaBot Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/16d6b0f86a701e9bb6bbfe9cfff7d78b82622dd1/CasaBot.md)    
   [https://roxanneardary.com/casabot/](https://roxanneardary.com/casabot/)  
   An open-source AI-powered real estate companion that continuously monitors listings, analyzes market trends, and delivers personalized alerts. It assists users in finding ideal properties.
