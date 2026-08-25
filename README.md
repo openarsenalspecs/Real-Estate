@@ -31,7 +31,7 @@ AppealRight is an AI-powered property tax assessment analysis specification that
   [https://roxanneardary.com/casabot/](https://roxanneardary.com/casabot/)  
   An open-source AI-powered real estate companion that continuously monitors listings, analyzes market trends, and delivers personalized alerts. It assists users in finding ideal properties.
 
-- [**CommonsHome Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/1b22b718181c601204c339c59a1545eaeb874f1a/CommonsHome.md)    
+- [**CommonsHome Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/aea3a054df4f632c70b52d5ae796ab78e77acce5/CommonsHome.md)    
   [https://roxanneardary.com/commonshome/](https://roxanneardary.com/commonshome/)  
   An open-source AI-powered platform for home staging, spatial intelligence, and real estate marketing optimization. It transforms property photos into market-ready listings with virtual staging and insights.
 
