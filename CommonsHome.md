@@ -1,6 +1,8 @@
 # CommonsHome
+**Where homes learn how to sell themselves.**
+- HTML Mirror:  [https://roxanneardary.com/commonshome-specification/](https://roxanneardary.com/commonshome-specification/)  
 
-## Where homes learn how to sell themselves.
+---
 
 CommonsHome is an open-source, modular AI platform for home staging, real estate marketing, spatial intelligence, and listing performance optimization.
 
