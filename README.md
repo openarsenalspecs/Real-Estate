@@ -94,6 +94,10 @@ HelixPlan is an open-source spatial intelligence system that reconstructs accura
   [https://roxanneardary.com/mindledger-for-real-estate/](https://roxanneardary.com/mindledger-for-real-estate/)   
   MindLedger for Real Estate is a modular, open-source real estate operating system that unifies CRM, listings, marketing, analytics, compliance, and accessibility into a single intelligent platform. It uses a dual-AI architecture to support both agent operations and public-facing services, enabling automation, customization, and continuous system evolution.
 
+- [**MortaLens Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/6be768af9bb6e07c419e552e5704b505d68fecfb/MortaLens.md)
+[https://roxanneardary.com/mortalens/](https://roxanneardary.com/mortalens/)
+MortaLens is an AI-powered mortgage intelligence and short sale management platform that streamlines financial analysis, hardship verification, loan eligibility assessments, fraud detection, and credit impact evaluation. It combines intelligent document processing, automated workflows, and human-supervised decision-making to support transparent and efficient mortgage resolution.
+
 - [**NeighborhoodGraph Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/8a4604db215d98582620bfd9b24cf51356a0aba7/NeighborhoodGraph.md)    
   [https://roxanneardary.com/neighborhood-graph/](https://roxanneardary.com/neighborhood-graph/)  
   An open-source civic intelligence platform that transforms housing, land, infrastructure, and community data into an interactive knowledge graph. It explores neighborhood evolution over time.
