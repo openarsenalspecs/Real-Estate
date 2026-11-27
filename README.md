@@ -88,7 +88,7 @@ AppealRight is an AI-powered property tax assessment analysis specification that
 - [**HappyHouse Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/dc795a5139280bcefc66b66b938b9c3857c3d84f/HappyHouse.md)  
   [https://roxanneardary.com/happyhouse/](https://roxanneardary.com/happyhouse/)  
   An AI-powered home maintenance and property intelligence platform for tracking systems, managing repairs, and predicting maintenance needs. It helps property owners maintain their assets.
-- [**HelixPlan Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/88afdea559bad2bae0c509c8ad4a67af6aa43c5a/HelixPlan.md)  
+- [**HelixPlan Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/968b6532d0058a0334ffe69361c4146f57d2bc91/HelixPlan.md)  
 [https://roxanneardary.com/helixplan/](https://roxanneardary.com/helixplan/)  
 HelixPlan is an open-source spatial intelligence system that reconstructs accurate architectural floorplans from walkthrough video and minimal dimensional inputs using computer vision, SLAM, and AI-driven spatial reasoning. It generates structured 2D and 3D representations of real-world interiors, including walls, rooms, doors, windows, closets, and stairs, while continuously improving through an open, community-driven development model.
 - [**HouseLens Module Specification**](https://github.com/openarsenalspecs/Real-Estate/blob/8f1ff638434043150c586ac4305fca565febd2f5/HouseLens.md)  
